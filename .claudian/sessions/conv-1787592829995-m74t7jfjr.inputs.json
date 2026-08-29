@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787592829995-m74t7jfjr",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787592830029-em7qj1t",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787592829987-v9lqm8f",
+      "timestamp": 1787592829987,
+      "rawDisplayText": "**CNAME** — standard DNS, hostname → hostname. **Cannot exist at the zone apex** (`myapp.com`) — apex must hold NS/SOA records.\n- **Alias** — Route 53 extension mapping to an **AWS resource** (ALB, CloudFront, S3 website, API Gateway). Works at apex and subdomains, resolves to current IPs with no extra round-trip, and **queries to AWS resources are free**. Cannot point to non-AWS resources.\n\n\ntoo many lingos",
+      "canonicalText": "**CNAME** — standard DNS, hostname → hostname. **Cannot exist at the zone apex** (`myapp.com`) — apex must hold NS/SOA records.\n- **Alias** — Route 53 extension mapping to an **AWS resource** (ALB, CloudFront, S3 website, API Gateway). Works at apex and subdomains, resolves to current IPs with no extra round-trip, and **queries to AWS resources are free**. Cannot point to non-AWS resources.\n\n\ntoo many lingos",
+      "context": {
+        "currentNote": {
+          "path": "Ops/AWS/Route 53 & Global Accelerator.md"
+        },
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "**CNAME** — standard DNS, hostname → hostname. **Cannot exist at the zone apex** (`myapp.com`) — apex must hold NS/SOA records.\n- **Alias** — Route 53 extension mapping to an **AWS resource** (ALB, CloudFront, S3 website, API Gateway). Works at apex and subdomains, resolves to current IPs with no extra round-trip, and **queries to AWS resources are free**. Cannot point to non-AWS resources.",
+          "lineCount": 2,
+          "startLine": 37
+        }
+      },
+      "images": [],
+      "contentDigest": "c657c936fa4ac4b6838b3b98357657f52336391f6ee0763336d91cefc2ab6aeb",
+      "providerAssistantMessageId": "msg_034d62785001APRTJNnRFeJdtD"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787592889156-8v8pbvh",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787592889150-yil5xr6",
+      "timestamp": 1787592889150,
+      "rawDisplayText": "what do you mean by bare domain?",
+      "canonicalText": "what do you mean by bare domain?",
+      "images": [],
+      "contentDigest": "e5938d7659924d2a680cf53b521d7c60c825c8ba0d50351e06ba9bce2bd3d5d6",
+      "providerAssistantMessageId": "msg_034d6d36d001Lc03gIGfD24zc6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787592972031-1gzufmx",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787592972026-xm15rrj",
+      "timestamp": 1787592972026,
+      "rawDisplayText": "define bare domain",
+      "canonicalText": "define bare domain",
+      "images": [],
+      "contentDigest": "65ae369aa4049d5c43fc6b05428fd79681d813b241b684a5270fecb348f3e036",
+      "providerAssistantMessageId": "msg_034d81728001RJ2AWtPstaA8vE"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787592976045-bd1iobi",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1787592976043-b7jzxzd",
+      "timestamp": 1787592976043,
+      "rawDisplayText": "in notes",
+      "canonicalText": "in notes",
+      "images": [],
+      "contentDigest": "1b06b589c9affe142778f6132cc7423e36e4ce12d8e99b5101f187214c885665",
+      "providerAssistantMessageId": "msg_034d84a64001MDyNj8zSVJ2URV"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787593009789-k075rbe",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1787593009782-jkbi5t8",
+      "timestamp": 1787593009782,
+      "rawDisplayText": "that spot is reserved for records that define the zone itself (NS/SOA)\n\nthis is also jargonish",
+      "canonicalText": "that spot is reserved for records that define the zone itself (NS/SOA)\n\nthis is also jargonish",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "that spot is reserved for records that define the zone itself (NS/SOA)",
+          "lineCount": 1,
+          "startLine": 39
+        }
+      },
+      "images": [],
+      "contentDigest": "c3fc20e119a4c2915a37eee0c759973058d90acf0ac0a667efbe01907f23e1ca",
+      "providerAssistantMessageId": "msg_034d8c78e001fMyJmNEfTHDF7B"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787593034056-wiqwvcr",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1787593034050-n8e11ox",
+      "timestamp": 1787593034050,
+      "rawDisplayText": "use simple english without bloat",
+      "canonicalText": "use simple english without bloat",
+      "images": [],
+      "contentDigest": "64da7c43c95477b363f5082445c0ff706f676d7d04535bd8468b0110abcd4365",
+      "providerAssistantMessageId": "msg_034d920f3001Z2lbCeKh4I3jxg"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787593467764-sbouqul",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1787593467757-ea2xs90",
+      "timestamp": 1787593467758,
+      "rawDisplayText": "Two **static Anycast IPs** as fixed entry points\n\n\nthere is no premise.",
+      "canonicalText": "Two **static Anycast IPs** as fixed entry points\n\n\nthere is no premise.",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "Two **static Anycast IPs** as fixed entry points",
+          "lineCount": 1,
+          "startLine": 75
+        }
+      },
+      "images": [],
+      "contentDigest": "f516bfb1209b6ab16a7086ac51d4612870a8a8a458e6977a0be4cafcfb1c1114",
+      "providerAssistantMessageId": "msg_034dfde05001zce8JSMzSIXGFH"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787593865894-xlqooda",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1787593865887-7cjt4oz",
+      "timestamp": 1787593865887,
+      "rawDisplayText": "How does the user's computer know that it has to hit the AWS edge instead of going via public internet?",
+      "canonicalText": "How does the user's computer know that it has to hit the AWS edge instead of going via public internet?",
+      "images": [],
+      "contentDigest": "80027f0750420b45b8e8e767b549e10da802960d967b798d557ac99e60fded8b",
+      "providerAssistantMessageId": "msg_034e5bad1001DbOe7jMqd8JxDy"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787593903219-fryf18b",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1787593903214-yk88jbu",
+      "timestamp": 1787593903214,
+      "rawDisplayText": "tldr",
+      "canonicalText": "tldr",
+      "images": [],
+      "contentDigest": "febd17bc92dcd44164d7ef5a86f33facede6aed95224726c24b9dd3d9922e581",
+      "providerAssistantMessageId": "msg_034e64c9e0011J0iNVWarfF7gG"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787593959149-yp2b3bw",
+      "userTurnOrdinal": 10,
+      "state": "accepted",
+      "localMessageId": "msg-1787593959146-9suqnxq",
+      "timestamp": 1787593959146,
+      "rawDisplayText": "i am not sure what you are saying. the whole point of GA is to use AWS private network which won't be possible w/o it",
+      "canonicalText": "i am not sure what you are saying. the whole point of GA is to use AWS private network which won't be possible w/o it",
+      "images": [],
+      "contentDigest": "233d0957fc7760b5abedf38d0ef103179326310e325945d7c0d36c5a795884fd",
+      "providerAssistantMessageId": "msg_034e727150019FT1Nvmai4SAo3"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594014281-l873a2s",
+      "userTurnOrdinal": 11,
+      "state": "accepted",
+      "localMessageId": "msg-1787594014276-4mg9clf",
+      "timestamp": 1787594014276,
+      "rawDisplayText": "so it won't work without GA?",
+      "canonicalText": "so it won't work without GA?",
+      "images": [],
+      "contentDigest": "e93d0e50f51bdd28d86000aff732af0242a0b24e22333de431532fa53d51d1c7",
+      "providerAssistantMessageId": "msg_034e7fe70001ke6oy0cwFBVcsy"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594142022-qdlwkcq",
+      "userTurnOrdinal": 12,
+      "state": "accepted",
+      "localMessageId": "msg-1787594142016-bxm9jve",
+      "timestamp": 1787594142016,
+      "rawDisplayText": "Changed thinking effort. Please answer again:\nHow does the user's computer know that it has to hit the AWS edge instead of going via public internet?",
+      "canonicalText": "Changed thinking effort. Please answer again:\nHow does the user's computer know that it has to hit the AWS edge instead of going via public internet?",
+      "images": [],
+      "contentDigest": "f7c635ce5b44c68b87315c6dac199f04a9edc738a47198d882b0e01a1666cefb",
+      "providerAssistantMessageId": "msg_034e9f16b001D3FMCwKWwn0fJZ"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594193822-s5pdck1",
+      "userTurnOrdinal": 13,
+      "state": "accepted",
+      "localMessageId": "msg-1787594193816-igaz47x",
+      "timestamp": 1787594193816,
+      "rawDisplayText": "which IP is that?",
+      "canonicalText": "which IP is that?",
+      "images": [],
+      "contentDigest": "70c764151e59d283d9cf0f2bebcd2fa87896f81eba12c15f5edb205a14f0a615",
+      "providerAssistantMessageId": "msg_034eabbc7001hJvOnjmqYaPyhk"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594306596-lgmxdyg",
+      "userTurnOrdinal": 14,
+      "state": "accepted",
+      "localMessageId": "msg-1787594306589-nwrfus2",
+      "timestamp": 1787594306589,
+      "rawDisplayText": "Because every AWS edge announces that IP, the user's ISP routes the packets to the nearest edge\n\n\ntell me in more depth",
+      "canonicalText": "Because every AWS edge announces that IP, the user's ISP routes the packets to the nearest edge\n\n\ntell me in more depth",
+      "images": [],
+      "contentDigest": "52783deca1dbde9dec16ee6933bd21819d4b22a83c37f55fe69ce9b9fd1c229f",
+      "providerAssistantMessageId": "msg_034ec744d001s7zmc9PBKMAEBL"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594413756-u0xi3jj",
+      "userTurnOrdinal": 15,
+      "state": "accepted",
+      "localMessageId": "msg-1787594413751-esg1o67",
+      "timestamp": 1787594413751,
+      "rawDisplayText": "Oh, nice now I understood. Can you explain the specific example with vs without in notes",
+      "canonicalText": "Oh, nice now I understood. Can you explain the specific example with vs without in notes",
+      "images": [],
+      "contentDigest": "66f574aa35912c07d45361c938b2a0d2eb0334a4ab7cd0275fc806e5af48a48a",
+      "providerAssistantMessageId": "msg_034ee5a7d001zY3fn68sGyR3dt"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594495705-agiy2kx",
+      "userTurnOrdinal": 16,
+      "state": "accepted",
+      "localMessageId": "msg-1787594495699-rrh6am9",
+      "timestamp": 1787594495699,
+      "rawDisplayText": "who will tell about 100+ edge location announcing the same IP",
+      "canonicalText": "who will tell about 100+ edge location announcing the same IP",
+      "images": [],
+      "contentDigest": "577c43a798c8af65630632cfd08fde2d3eaf71a4e10795644f5c0ac36f5a9954",
+      "providerAssistantMessageId": "msg_034ef57010014N9vofM4nvnl1L"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594539743-wlk3kb0",
+      "userTurnOrdinal": 17,
+      "state": "accepted",
+      "localMessageId": "msg-1787594539738-p84v65u",
+      "timestamp": 1787594539738,
+      "rawDisplayText": "I meant you didn't add that in notes man",
+      "canonicalText": "I meant you didn't add that in notes man",
+      "images": [],
+      "contentDigest": "351f65208e103b43567ff90c01708c651831c76138fa8b321313f9e298da5a97",
+      "providerAssistantMessageId": "msg_034f03174001eATJpy3YIdU9NQ"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594642045-dm5f3s2",
+      "userTurnOrdinal": 18,
+      "state": "accepted",
+      "localMessageId": "msg-1787594642039-gvdr6sa",
+      "timestamp": 1787594642039,
+      "rawDisplayText": "Who does the announcing? **AWS itself.** Every edge location runs AWS's own routers, and creating a GA just programs them to announce your two IPs to their neighbors (\"I can reach 203.0.113.10\"). Each edge announces locally — Singapore tells Singaporean ISPs, Tokyo tells Japanese ISPs — no coordination needed; the internet's shortest-path logic assembles \"nearest edge\" on its own. This is allowed because AWS **owns** the IP block, and an owner may announce its prefix from anywhere its network reaches. ISPs never learn \"this is Anycast\" — their routers just see competing routes and pick one.\n\n\nI didn't get this part actually. so you said you assign two static IPs. Both static IPs will be announced anycast?",
+      "canonicalText": "Who does the announcing? **AWS itself.** Every edge location runs AWS's own routers, and creating a GA just programs them to announce your two IPs to their neighbors (\"I can reach 203.0.113.10\"). Each edge announces locally — Singapore tells Singaporean ISPs, Tokyo tells Japanese ISPs — no coordination needed; the internet's shortest-path logic assembles \"nearest edge\" on its own. This is allowed because AWS **owns** the IP block, and an owner may announce its prefix from anywhere its network reaches. ISPs never learn \"this is Anycast\" — their routers just see competing routes and pick one.\n\n\nI didn't get this part actually. so you said you assign two static IPs. Both static IPs will be announced anycast?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "Who does the announcing? **AWS itself.** Every edge location runs AWS's own routers, and creating a GA just programs them to announce your two IPs to their neighbors (\"I can reach 203.0.113.10\"). Each edge announces locally — Singapore tells Singaporean ISPs, Tokyo tells Japanese ISPs — no coordination needed; the internet's shortest-path logic assembles \"nearest edge\" on its own. This is allowed because AWS **owns** the IP block, and an owner may announce its prefix from anywhere its network reaches. ISPs never learn \"this is Anycast\" — their routers just see competing routes and pick one.",
+          "lineCount": 1,
+          "startLine": 106
+        }
+      },
+      "images": [],
+      "contentDigest": "71e516740c82e1fd2956647110e4dc95de15d039fc2666ec1b4767c61429ffd5",
+      "providerAssistantMessageId": "msg_034f192a7001jpapfqH1TRAJHd"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594751787-k8ii1wm",
+      "userTurnOrdinal": 19,
+      "state": "accepted",
+      "localMessageId": "msg-1787594751782-g18vjln",
+      "timestamp": 1787594751782,
+      "rawDisplayText": "so destination is edge when IP is 203.0.113.10. what happens when you go to that edge and realize that it's not 203.0.113.10",
+      "canonicalText": "so destination is edge when IP is 203.0.113.10. what happens when you go to that edge and realize that it's not 203.0.113.10",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "Who does the announcing? **AWS itself.** Every edge location runs AWS's own routers, and creating a GA just programs them to announce your two IPs to their neighbors (\"I can reach 203.0.113.10\"). Each edge announces locally — Singapore tells Singaporean ISPs, Tokyo tells Japanese ISPs — no coordination needed; the internet's shortest-path logic assembles \"nearest edge\" on its own. This is allowed because AWS **owns** the IP block, and an owner may announce its prefix from anywhere its network reaches. ISPs never learn \"this is Anycast\" — their routers just see competing routes and pick one.",
+          "lineCount": 1,
+          "startLine": 106
+        }
+      },
+      "images": [],
+      "contentDigest": "9612a1628e7e9c464940ac78a5eb4327b8eff4ffa89f108cd37c945612d556da",
+      "providerAssistantMessageId": "msg_034f33f52001HLPPG34TUQSiFB"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594794981-xg650bq",
+      "userTurnOrdinal": 20,
+      "state": "accepted",
+      "localMessageId": "msg-1787594794976-je4htrm",
+      "timestamp": 1787594794976,
+      "rawDisplayText": "Oh, now from edge it will go to the application via private network?",
+      "canonicalText": "Oh, now from edge it will go to the application via private network?",
+      "images": [],
+      "contentDigest": "a861a57c977ada23f79d5713e5081084b0fcaf98cd8d84d054554d7ffa606d50",
+      "providerAssistantMessageId": "msg_034f3e822001sw26a1KlkUzRaY"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594834923-hk4ubyd",
+      "userTurnOrdinal": 21,
+      "state": "accepted",
+      "localMessageId": "msg-1787594834918-475d5vk",
+      "timestamp": 1787594834918,
+      "rawDisplayText": "Cool rewrite the example now. You now know where I exactly got stuck. use simple and compact english as much as possible",
+      "canonicalText": "Cool rewrite the example now. You now know where I exactly got stuck. use simple and compact english as much as possible",
+      "images": [],
+      "contentDigest": "b3e3921b05ac7fd65b68fc397ae852e2d419b29cb1dbf2775ff5b070101a89f1",
+      "providerAssistantMessageId": "msg_034f4d3d2001pbAj7E3OIx33nm"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787594961076-llupbo4",
+      "userTurnOrdinal": 22,
+      "state": "accepted",
+      "localMessageId": "msg-1787594961070-ybnxqdg",
+      "timestamp": 1787594961070,
+      "rawDisplayText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)\n\n\nwhy one is 2 hop another is 6. the anycast thing works on all edge right?",
+      "canonicalText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)\n\n\nwhy one is 2 hop another is 6. the anycast thing works on all edge right?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)",
+          "lineCount": 2,
+          "startLine": 98
+        }
+      },
+      "images": [],
+      "contentDigest": "7cd31e273f2e33fc8f531929ab315f03e9b55353c28eb81f1ed20af8f3d2a860",
+      "providerAssistantMessageId": "msg_034f670df001K6zbASosC9QPFF"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787595073508-o8qmk7q",
+      "userTurnOrdinal": 23,
+      "state": "accepted",
+      "localMessageId": "msg-1787595073503-qmycc06",
+      "timestamp": 1787595073503,
+      "rawDisplayText": "yes please. Please make it clear that it is because of geography. Also you didn't connect GA IPs with application IPs",
+      "canonicalText": "yes please. Please make it clear that it is because of geography. Also you didn't connect GA IPs with application IPs",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)",
+          "lineCount": 2,
+          "startLine": 98
+        }
+      },
+      "images": [],
+      "contentDigest": "d8dff9ae035af32b3f68cb9128983524450d3517906596fb4405fbf24f576fd7"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787595101886-tbepzbe",
+      "userTurnOrdinal": 24,
+      "state": "accepted",
+      "localMessageId": "msg-1787595101880-bhna33v",
+      "timestamp": 1787595101880,
+      "rawDisplayText": "write less. draw more. User shouldn't get fatgued while reading",
+      "canonicalText": "write less. draw more. User shouldn't get fatgued while reading",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)",
+          "lineCount": 2,
+          "startLine": 98
+        }
+      },
+      "images": [],
+      "contentDigest": "e9d3f16eecef750e6102e2acbe8fcbf9e659a9293c55d1d884cd08c945658803",
+      "providerAssistantMessageId": "msg_034f8e3e4001sCxDm2vodB9JT2"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787595199155-frcuzb7",
+      "userTurnOrdinal": 25,
+      "state": "accepted",
+      "localMessageId": "msg-1787595199150-ndjvjiy",
+      "timestamp": 1787595199150,
+      "rawDisplayText": "You never told about the configuration part. You should start with that",
+      "canonicalText": "You never told about the configuration part. You should start with that",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)",
+          "lineCount": 2,
+          "startLine": 98
+        }
+      },
+      "images": [],
+      "contentDigest": "536547fe4965d393da937715a34641dd9faa3d4acc75963ecf070a3e4f5ee487",
+      "providerAssistantMessageId": "msg_034fa57e4001KLCwe24estT0IP"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787595343471-yv2itt5",
+      "userTurnOrdinal": 26,
+      "state": "accepted",
+      "localMessageId": "msg-1787595343464-pi75mbb",
+      "timestamp": 1787595343464,
+      "rawDisplayText": "Bro rewrite the example. this looks very AIsh generated man. Start with GA and then without GA. Keep it simple man. I would say draw mermaid diagram. and then explain it.",
+      "canonicalText": "Bro rewrite the example. this looks very AIsh generated man. Start with GA and then without GA. Keep it simple man. I would say draw mermaid diagram. and then explain it.",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "via Singapore exchange → AWS Singapore edge   (2 hops) ✅ wins\n             via US transit         → AWS US edge          (6 hops)",
+          "lineCount": 2,
+          "startLine": 98
+        }
+      },
+      "images": [],
+      "contentDigest": "1fcabd77c30fcfc0da094abd3d5626a009d47b7e84c553f02e6a172ed620a71d",
+      "providerAssistantMessageId": "msg_034fcac19001jUvGx61ZcR7fHj"
+    }
+  ]
+}

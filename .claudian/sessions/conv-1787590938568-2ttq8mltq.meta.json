@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787590938568-2ttq8mltq",
+  "providerId": "opencode",
+  "title": "Generate more easy Python DevOps questions",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787590938574,
+  "lastActivityAt": 1787591020604,
+  "sessionId": "ses_fcb46ea51ffertL3FoaIOfDl05",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/Python/Easy/Questions.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 11358,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 1
+  }
+}

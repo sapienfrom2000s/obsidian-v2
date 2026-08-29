@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787993216143-rrp1udwru",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787993216178-vi4qqke",
+      "userTurnOrdinal": 1,
+      "state": "staged",
+      "localMessageId": "msg-1787993216138-hnukd59",
+      "timestamp": 1787993216138,
+      "rawDisplayText": "Cool; Now create a mindmap for AWS using excalidraw.",
+      "canonicalText": "Cool; Now create a mindmap for AWS using excalidraw.",
+      "context": {
+        "currentNote": {
+          "path": "Ops/AWS/Security & Operations.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "81dab5df212b1a6bba52bcc7aa2c2473040fc25fbf48ff8c72e52407c5611604"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787993311071-vvkmtwt",
+      "userTurnOrdinal": 2,
+      "state": "staged",
+      "localMessageId": "msg-1787993311067-px1332q",
+      "timestamp": 1787993311067,
+      "rawDisplayText": "Cool; Now create a mindmap for AWS using excalidraw for each note inside aws. and create a master mindmap which will include all of AWS",
+      "canonicalText": "Cool; Now create a mindmap for AWS using excalidraw for each note inside aws. and create a master mindmap which will include all of AWS",
+      "images": [],
+      "contentDigest": "2eca4fea9f54a5f5d9f74b90140613bc091fdffd1c546701ec4bf522454f0dca"
+    }
+  ]
+}

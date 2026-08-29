@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787994132330-dd54wiwml",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787994132365-3jl89fg",
+      "userTurnOrdinal": 1,
+      "state": "staged",
+      "localMessageId": "msg-1787994132327-gvm8uob",
+      "timestamp": 1787994132327,
+      "rawDisplayText": "Cool; Now create a mindmap for AWS using excalidraw for each note inside aws. and create a master mindmap which will include all of AWS",
+      "canonicalText": "Cool; Now create a mindmap for AWS using excalidraw for each note inside aws. and create a master mindmap which will include all of AWS",
+      "context": {
+        "currentNote": {
+          "path": "Ops/AWS/Compute & Messaging.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "2eca4fea9f54a5f5d9f74b90140613bc091fdffd1c546701ec4bf522454f0dca"
+    }
+  ]
+}

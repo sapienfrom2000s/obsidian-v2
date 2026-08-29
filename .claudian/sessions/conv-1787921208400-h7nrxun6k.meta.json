@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787921208400-h7nrxun6k",
+  "providerId": "opencode",
+  "title": "Access DevSecOps-Zero-to-Hero directory",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787921208408,
+  "lastActivityAt": 1787991188724,
+  "sessionId": "ses_fb797661bffe1s3eSEJv2x60KS",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 134768,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 13
+  }
+}

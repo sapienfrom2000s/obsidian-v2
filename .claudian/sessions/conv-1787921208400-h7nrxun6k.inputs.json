@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787921208400-h7nrxun6k",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921208485-03cv8ez",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787921208396-6263q3e",
+      "timestamp": 1787921208397,
+      "rawDisplayText": "/Users/thirtyone/repos-v2/DevSecOps-Zero-to-Hero\n\nCan you read this?",
+      "canonicalText": "/Users/thirtyone/repos-v2/DevSecOps-Zero-to-Hero\n\nCan you read this?",
+      "context": {
+        "currentNote": {
+          "path": "Ops/SecOps(Draft)/Intro.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "86a356740cad1ee89d5dc5199822ad294abd16157858dfc7207c84a9fc2c5a7b"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921545065-3qv2b7g",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787921545059-9ujs879",
+      "timestamp": 1787921545059,
+      "rawDisplayText": "wtf?",
+      "canonicalText": "wtf?",
+      "images": [],
+      "contentDigest": "e306310cd03af67100f8db8f8ccddb2448bab1bc2b7fdfb02f7288878b6349b9",
+      "providerAssistantMessageId": "msg_0486db79d001JpvlV8piRjm0yv"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921563833-i2phdb0",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787921563827-n0hmayq",
+      "timestamp": 1787921563827,
+      "rawDisplayText": "Have access to /Users/thirtyone/repos-v2/DevSecOps-Zero-to-Hero?",
+      "canonicalText": "Have access to /Users/thirtyone/repos-v2/DevSecOps-Zero-to-Hero?",
+      "images": [],
+      "contentDigest": "b778e0cf2a3bf1dc8f744c6f2e2028c2737a068c66adfa787c33a3344eff2887",
+      "providerAssistantMessageId": "msg_0486e12920019bUhFsBFSs6zoK"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921602934-fr31959",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1787921602930-p9seeug",
+      "timestamp": 1787921602930,
+      "rawDisplayText": "I want to understand devsecops through this repo and make notes along the way. Can you be my guide?",
+      "canonicalText": "I want to understand devsecops through this repo and make notes along the way. Can you be my guide?",
+      "images": [],
+      "contentDigest": "4922cd55054851f8e91aac83d77f1f5ed9feb1f7577526d4edb63bfe5f9adcac",
+      "providerAssistantMessageId": "msg_0486f1863001fMsTFJlVIcU21w"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921661958-ylcfeyh",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1787921661955-vl4wmsk",
+      "timestamp": 1787921661955,
+      "rawDisplayText": "Let's start from the start",
+      "canonicalText": "Let's start from the start",
+      "images": [],
+      "contentDigest": "6ae7e99e0dd6a92b15e6dee82dcda25503cc0132f93b35b0d9e35f428344cfe6",
+      "providerAssistantMessageId": "msg_0487018c0001JdhLED6Kx2Myj9"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921854608-2g5qv9m",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1787921854605-xoc58bj",
+      "timestamp": 1787921854605,
+      "rawDisplayText": "no emojis please; no tables as well; be as compact as possible",
+      "canonicalText": "no emojis please; no tables as well; be as compact as possible",
+      "images": [],
+      "contentDigest": "883752cc02199906b2e0bfa3b07fa2da4907e70ac9a034ef14574c465ff7b75e",
+      "providerAssistantMessageId": "msg_048729abe001FdPxjsQSYACiLc"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921913711-0zqvk48",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1787921913704-c45tjyc",
+      "timestamp": 1787921913704,
+      "rawDisplayText": "thhere should be only one file for notes",
+      "canonicalText": "thhere should be only one file for notes",
+      "images": [],
+      "contentDigest": "ffb3f7d73322d9513504b6b9d3a285546f22d192e0604cbb8a5f37edd5c279ae",
+      "providerAssistantMessageId": "msg_048739356001B36i5LrZ3UJQvy"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921953773-v7jp998",
+      "userTurnOrdinal": 8,
+      "state": "staged",
+      "localMessageId": "msg-1787921953767-smbnc83",
+      "timestamp": 1787921953767,
+      "rawDisplayText": "no day 1 or day 2 please",
+      "canonicalText": "no day 1 or day 2 please",
+      "images": [],
+      "contentDigest": "8e7cd15325357d45873215db4b52227a4255558fe9537eba0de94652cc10df6c"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787921979570-snl9knu",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1787921979565-46pqlr8",
+      "timestamp": 1787921979565,
+      "rawDisplayText": "focus on topics",
+      "canonicalText": "focus on topics",
+      "images": [],
+      "contentDigest": "a87a8018a1b5ec62a42863979384ec749ac14e23b90dd06466cf0bd7facb4797",
+      "providerAssistantMessageId": "msg_0487482ce001V9IwmoeWngHgwc"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787922122919-uhpy2p6",
+      "userTurnOrdinal": 10,
+      "state": "accepted",
+      "localMessageId": "msg-1787922122915-d5j00qx",
+      "timestamp": 1787922122915,
+      "rawDisplayText": "remove properties",
+      "canonicalText": "remove properties",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "0",
+          "lineCount": 1
+        }
+      },
+      "images": [],
+      "contentDigest": "b81a9bd484973b9a90050be23f87585a12bbd52f938b95986213ea46c48bf690",
+      "providerAssistantMessageId": "msg_048769317001ZnjfGwLHnD76QK"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787922151541-dwrb61p",
+      "userTurnOrdinal": 11,
+      "state": "accepted",
+      "localMessageId": "msg-1787922151535-1eh55qh",
+      "timestamp": 1787922151535,
+      "rawDisplayText": "simple english; no jargons",
+      "canonicalText": "simple english; no jargons",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "0",
+          "lineCount": 1
+        }
+      },
+      "images": [],
+      "contentDigest": "ee71337e902e923e7654820c3caf6b821d5681c1ac814df8cbb803e4b8294f00",
+      "providerAssistantMessageId": "msg_048772850001dPGelUKhUN0Mqy"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787922189593-9xvykte",
+      "userTurnOrdinal": 12,
+      "state": "accepted",
+      "localMessageId": "msg-1787922189586-sxxemxr",
+      "timestamp": 1787922189586,
+      "rawDisplayText": "day 2 explain",
+      "canonicalText": "day 2 explain",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "0",
+          "lineCount": 1
+        }
+      },
+      "images": [],
+      "contentDigest": "7d86f43e6c24905b8c8fa3c2b99c23534259671a523b502043e03acecc691150",
+      "providerAssistantMessageId": "msg_04878141b001lW2l0HXzvZa0Dc"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787922332482-kx8u18t",
+      "userTurnOrdinal": 13,
+      "state": "accepted",
+      "localMessageId": "msg-1787922332475-jtfdpvb",
+      "timestamp": 1787922332475,
+      "rawDisplayText": "day 3",
+      "canonicalText": "day 3",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "Dependabot — opens automatic pull requests when your project's libraries have known flaws and fixed versions exist.",
+          "lineCount": 1
+        }
+      },
+      "images": [],
+      "contentDigest": "58c65fb12ce4e8650905d279d435fa0011742f193840027a00941b9a973eedab",
+      "providerAssistantMessageId": "msg_0487a2bfa0013tk5RXJLskhelm"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787922818612-i0n7e70",
+      "userTurnOrdinal": 14,
+      "state": "accepted",
+      "localMessageId": "msg-1787922818606-lqi0tid",
+      "timestamp": 1787922818606,
+      "rawDisplayText": "didn't understand vault part",
+      "canonicalText": "didn't understand vault part",
+      "images": [],
+      "contentDigest": "b37d7a0d575fda2b47d975574f724ca8cc53dcb8496cba68f5f2d30ecdc4bf53",
+      "providerAssistantMessageId": "msg_048812660001Kf10PjXVmB2XYm"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923112255-ia8qkdp",
+      "userTurnOrdinal": 15,
+      "state": "accepted",
+      "localMessageId": "msg-1787923112250-irb46gy",
+      "timestamp": 1787923112250,
+      "rawDisplayText": "You put one master AWS key into Vault, once, and never touch it again.\nEvery time the pipeline runs, it shows GitHub's signed token to Vault.\nVault hands back a fresh AWS key that can only touch S3 and dies soon.\nTerraform uses that key to build your stuff.\nDone. No permanent keys stored in GitHub, on your laptop, or in the repo.\n\n\nvs\n\n\nstoring a key with scoped permissions",
+      "canonicalText": "You put one master AWS key into Vault, once, and never touch it again.\nEvery time the pipeline runs, it shows GitHub's signed token to Vault.\nVault hands back a fresh AWS key that can only touch S3 and dies soon.\nTerraform uses that key to build your stuff.\nDone. No permanent keys stored in GitHub, on your laptop, or in the repo.\n\n\nvs\n\n\nstoring a key with scoped permissions",
+      "images": [],
+      "contentDigest": "6b100e5c3d653475823469f37d4c50da8f7928918b9ae212907653b7625d1a05",
+      "providerAssistantMessageId": "msg_04885a16c0013FvSXYPTuZYYEX"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923162788-5yqdtov",
+      "userTurnOrdinal": 16,
+      "state": "accepted",
+      "localMessageId": "msg-1787923162784-omzjmkn",
+      "timestamp": 1787923162784,
+      "rawDisplayText": "when you say CI you also mean the terraform apply part?",
+      "canonicalText": "when you say CI you also mean the terraform apply part?",
+      "images": [],
+      "contentDigest": "54118f49b70ee46c3ee32cb5d2dd5341dc0fcf0b625cfe9c8461e01808a2aaf5",
+      "providerAssistantMessageId": "msg_0488666ce001bweNcXjiHN6hTk"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923261260-yv1ffht",
+      "userTurnOrdinal": 17,
+      "state": "accepted",
+      "localMessageId": "msg-1787923261255-zujl67i",
+      "timestamp": 1787923261255,
+      "rawDisplayText": "You put one master AWS key into Vault, once, and never touch it again.\nEvery time the pipeline runs, it shows GitHub's signed token to Vault.\nVault hands back a fresh AWS key that can only touch S3 and dies soon.\nTerraform uses that key to build your stuff.\nDone. No permanent keys stored in GitHub, on your laptop, or in the repo.\n\nAdd this in notes\n\nAlso add\n\nstoring a key with scoped permissions\nAlso, expand on what CI means here and how infra is created in production",
+      "canonicalText": "You put one master AWS key into Vault, once, and never touch it again.\nEvery time the pipeline runs, it shows GitHub's signed token to Vault.\nVault hands back a fresh AWS key that can only touch S3 and dies soon.\nTerraform uses that key to build your stuff.\nDone. No permanent keys stored in GitHub, on your laptop, or in the repo.\n\nAdd this in notes\n\nAlso add\n\nstoring a key with scoped permissions\nAlso, expand on what CI means here and how infra is created in production",
+      "images": [],
+      "contentDigest": "2c3afcc91a8e90580c8c2b6fc2377a3cdc28ba3b8414404ad2465eb434d8de90",
+      "providerAssistantMessageId": "msg_048882667001VR1AxQHtPvsyFZ"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923307737-0a40xrg",
+      "userTurnOrdinal": 18,
+      "state": "accepted",
+      "localMessageId": "msg-1787923307734-an46p25",
+      "timestamp": 1787923307734,
+      "rawDisplayText": "Refactor it; I think some part is repetetive",
+      "canonicalText": "Refactor it; I think some part is repetetive",
+      "images": [],
+      "contentDigest": "b0605beb805368a47c3741956ca1d15fa346cb0e54db4f507e8d3e576b734d98",
+      "providerAssistantMessageId": "msg_04888e6a00014kyioOQ52qyaZG"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923424590-xq1xdhs",
+      "userTurnOrdinal": 19,
+      "state": "accepted",
+      "localMessageId": "msg-1787923424583-ywpebkp",
+      "timestamp": 1787923424583,
+      "rawDisplayText": "Let's go next",
+      "canonicalText": "Let's go next",
+      "images": [],
+      "contentDigest": "41a59eac6a8fd159e3081c937f505b849ccd17a8864a247347c3c37689169f8b",
+      "providerAssistantMessageId": "msg_0488acf77001Xsr7Y4jYEBp2vT"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923607111-3zlsj8x",
+      "userTurnOrdinal": 20,
+      "state": "accepted",
+      "localMessageId": "msg-1787923607104-q9qxyas",
+      "timestamp": 1787923607104,
+      "rawDisplayText": "If an attacker breaks the app, they have full control inside the container.\nCan you give an example of what root vs what normal user will be able to do?",
+      "canonicalText": "If an attacker breaks the app, they have full control inside the container.\nCan you give an example of what root vs what normal user will be able to do?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "If an attacker breaks the app, they have full control inside the container.",
+          "lineCount": 1
+        }
+      },
+      "images": [],
+      "contentDigest": "d9779ab57ab4efdcb670ad0cb90f49cd74c1082aefe0c0cd6f28f0ebb81b5784",
+      "providerAssistantMessageId": "msg_0488d2e70001iFLuVRfQEVTKtq"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923623405-a942tol",
+      "userTurnOrdinal": 21,
+      "state": "accepted",
+      "localMessageId": "msg-1787923623401-1rmb2qw",
+      "timestamp": 1787923623401,
+      "rawDisplayText": "tldr;",
+      "canonicalText": "tldr;",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "If an attacker breaks the app, they have full control inside the container.",
+          "lineCount": 1
+        }
+      },
+      "images": [],
+      "contentDigest": "a69b0f6897b0e0039fcbf9d55362a416cd0b448962cee538e5c2e77a19ee72c7",
+      "providerAssistantMessageId": "msg_0488d6e210013jhDqJ0MD8eskg"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923653445-km5advj",
+      "userTurnOrdinal": 22,
+      "state": "accepted",
+      "localMessageId": "msg-1787923653437-8ailk1b",
+      "timestamp": 1787923653437,
+      "rawDisplayText": "If an attacker breaks the app, they have full control inside the container.\n\n\n\nCan you add it beside this line?",
+      "canonicalText": "If an attacker breaks the app, they have full control inside the container.\n\n\n\nCan you add it beside this line?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "If an attacker breaks the app, they have full control inside the container.\n\n",
+          "lineCount": 3
+        }
+      },
+      "images": [],
+      "contentDigest": "9a42cc6f9cb0401f30df355f77aaf8e37fc08a19e8622392245c6f720b825d93",
+      "providerAssistantMessageId": "msg_0488df714001we62rH0h5c4YUI"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923673076-knujiyy",
+      "userTurnOrdinal": 23,
+      "state": "accepted",
+      "localMessageId": "msg-1787923673069-dntvgos",
+      "timestamp": 1787923673069,
+      "rawDisplayText": "too big too read",
+      "canonicalText": "too big too read",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "If an attacker breaks the app, they have full control inside the container.\n\n",
+          "lineCount": 3
+        }
+      },
+      "images": [],
+      "contentDigest": "97e47f06424f64395048c1b9072addcdbe24ce2a7596e07caafd3145aadcb3e4",
+      "providerAssistantMessageId": "msg_0488e4108001awQKQOR9u7ZysN"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787923687981-5hcj7cf",
+      "userTurnOrdinal": 24,
+      "state": "accepted",
+      "localMessageId": "msg-1787923687974-hs6k7iq",
+      "timestamp": 1787923687974,
+      "rawDisplayText": "do not use -",
+      "canonicalText": "do not use -",
+      "images": [],
+      "contentDigest": "06a5df836acf2e18801296911a709979a6a7bb6713e0b5cf1a4ea6ceecd67ad4",
+      "providerAssistantMessageId": "msg_0488eb9c200188MF2A1boE5o7h"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924055532-sxqyob5",
+      "userTurnOrdinal": 25,
+      "state": "accepted",
+      "localMessageId": "msg-1787924055528-vnus001",
+      "timestamp": 1787924055528,
+      "rawDisplayText": "Trivy: scans built images for known flaws in their librar\n\ndidn't understand",
+      "canonicalText": "Trivy: scans built images for known flaws in their librar\n\ndidn't understand",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "Trivy: scans built images for known flaws in their libraries.\n",
+          "lineCount": 2
+        }
+      },
+      "images": [],
+      "contentDigest": "f20e4c0160a4f5d4d28cc082eca42c2be5cd21ffae8a96c95e458dfd0f01c698",
+      "providerAssistantMessageId": "msg_0489406190015V8QQrEI5gRuV0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924089134-d4pq7gm",
+      "userTurnOrdinal": 26,
+      "state": "accepted",
+      "localMessageId": "msg-1787924089128-7rqenhk",
+      "timestamp": 1787924089128,
+      "rawDisplayText": "isn't this dependabot?",
+      "canonicalText": "isn't this dependabot?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "Hadolint: points out bad instructions in Dockerfiles.\n",
+          "lineCount": 2
+        }
+      },
+      "images": [],
+      "contentDigest": "82db2336dabfb7e19000ff140cf9ce76b172d18760ed5ebfbe3b5804eff40330",
+      "providerAssistantMessageId": "msg_048948957001yBI5IKi1OEl9mU"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924116661-k52pamc",
+      "userTurnOrdinal": 27,
+      "state": "accepted",
+      "localMessageId": "msg-1787924116654-lgq9aoc",
+      "timestamp": 1787924116654,
+      "rawDisplayText": "okay, just point this difference. I will understand",
+      "canonicalText": "okay, just point this difference. I will understand",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "Hadolint: points out bad instructions in Dockerfiles.\n",
+          "lineCount": 2
+        }
+      },
+      "images": [],
+      "contentDigest": "e3d841c9d0e7028dcbe686ef7c61df194afa827b45a863429533f5a97ebfbe55",
+      "providerAssistantMessageId": "msg_0489509be001JHWEIE8VPYrgeJ"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924334403-d3eiezw",
+      "userTurnOrdinal": 28,
+      "state": "accepted",
+      "localMessageId": "msg-1787924334396-s8jhkiv",
+      "timestamp": 1787924334396,
+      "rawDisplayText": "Yes",
+      "canonicalText": "Yes",
+      "images": [],
+      "contentDigest": "5b6c25e92d9b9b580923953f55179c51db7ebc028e68c66a181027f315821d66",
+      "providerAssistantMessageId": "msg_04898a2fc001YrtLzq7F3CdCwA"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924382796-40aw4sb",
+      "userTurnOrdinal": 29,
+      "state": "accepted",
+      "localMessageId": "msg-1787924382792-bj168jm",
+      "timestamp": 1787924382792,
+      "rawDisplayText": "next",
+      "canonicalText": "next",
+      "images": [],
+      "contentDigest": "904e36627b4a4fa47deddf8f04368944c477fd40d42873f24baaf5ed710a3318",
+      "providerAssistantMessageId": "msg_048996563001OkobBKLpaKx49z"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924438633-bkkl87k",
+      "userTurnOrdinal": 30,
+      "state": "accepted",
+      "localMessageId": "msg-1787924438629-ihss7mq",
+      "timestamp": 1787924438629,
+      "rawDisplayText": "move k8s part to a new page",
+      "canonicalText": "move k8s part to a new page",
+      "images": [],
+      "contentDigest": "164ab1f4ee3b2056d5cf3809997acd6bc427e8f36e73e9671bbbbf17840a85d7",
+      "providerAssistantMessageId": "msg_0489a2ef20018Ynxh1W7Z8EolP"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924956225-tjdwrqc",
+      "userTurnOrdinal": 31,
+      "state": "accepted",
+      "localMessageId": "msg-1787924956221-7nbz7s9",
+      "timestamp": 1787924956221,
+      "rawDisplayText": "full form of each",
+      "canonicalText": "full form of each",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "canner sees everyth",
+          "lineCount": 1,
+          "startLine": 111
+        }
+      },
+      "images": [],
+      "contentDigest": "2e5d0d7c13b5320ded77c7171434c9989892e473bc8b1e4091ad8b9f1df371ee"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924965605-su76anh",
+      "userTurnOrdinal": 32,
+      "state": "accepted",
+      "localMessageId": "msg-1787924965600-niwiih3",
+      "timestamp": 1787924965600,
+      "rawDisplayText": "sast...",
+      "canonicalText": "sast...",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "canner sees everyth",
+          "lineCount": 1,
+          "startLine": 111
+        }
+      },
+      "images": [],
+      "contentDigest": "ec87ae858f3901745f2960c097a0944c49a63b31ab9222bf631891b403367243",
+      "providerAssistantMessageId": "msg_048a1ec200010LVMpaMztZTPOJ"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787924976222-xr0kgo8",
+      "userTurnOrdinal": 33,
+      "state": "accepted",
+      "localMessageId": "msg-1787924976219-x5w6rrl",
+      "timestamp": 1787924976219,
+      "rawDisplayText": "yes",
+      "canonicalText": "yes",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "canner sees everyth",
+          "lineCount": 1,
+          "startLine": 111
+        }
+      },
+      "images": [],
+      "contentDigest": "02002f7ce90dff20716f6833c7694fa402e25a85c7e8ec803c457e8197761d70",
+      "providerAssistantMessageId": "msg_048a248ff0011i3MacTFgd6PmC"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787934013041-v7a672q",
+      "userTurnOrdinal": 34,
+      "state": "accepted",
+      "localMessageId": "msg-1787934013033-46pa1k3",
+      "timestamp": 1787934013033,
+      "rawDisplayText": "Now can you draw a mind map to revise this quickly with the help of excalidraw?",
+      "canonicalText": "Now can you draw a mind map to revise this quickly with the help of excalidraw?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/DevSecOps/DevSecOps.md",
+          "mode": "selection",
+          "selectedText": "- Ancient dependency versions (SCA)",
+          "lineCount": 1,
+          "startLine": 122
+        }
+      },
+      "images": [],
+      "contentDigest": "01ac5c78ad911157964a7870f338d5e9cfa2cd14d87df4471ed8d9ee7261a8d0",
+      "providerAssistantMessageId": "msg_049320339001TPCRTTzrne3zYU"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787934424091-187qoje",
+      "userTurnOrdinal": 35,
+      "state": "accepted",
+      "localMessageId": "msg-1787934424089-rddcz3u",
+      "timestamp": 1787934424089,
+      "rawDisplayText": "continue",
+      "canonicalText": "continue",
+      "images": [],
+      "contentDigest": "61b00692723054a5a149bf4fbe7176ccd6af5efb8445c87903bfb287b52a662a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787942410809-0yd5e42",
+      "userTurnOrdinal": 35,
+      "state": "accepted",
+      "localMessageId": "msg-1787942410782-eavpc6c",
+      "timestamp": 1787942410782,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-05-terraform-part-1.md\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-06-terraform-part-2.md\n\n\nCreate notes by taking this as refereance. Only one note instead of 2.\nMake sure to create mindmap at the end.",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-05-terraform-part-1.md\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-06-terraform-part-2.md\n\n\nCreate notes by taking this as refereance. Only one note instead of 2.\nMake sure to create mindmap at the end.",
+      "images": [],
+      "contentDigest": "c1b452c2ff18c77764df2b4fdbee3f03b7773b855c87f4a3acf28036fd1e77dc",
+      "providerUserMessageId": "msg_049ac223d001QziEGAWPELOYLT",
+      "providerAssistantMessageId": "msg_049ac51d3001BP4ZQZB9VFx1J3"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787942439418-2bcfzml",
+      "userTurnOrdinal": 36,
+      "state": "accepted",
+      "localMessageId": "msg-1787942439408-fcvgid2",
+      "timestamp": 1787942439408,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-05-terraform-part-1.md\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-06-terraform-part-2.md\n\nCreate notes by taking this as refereance. Only one note instead of 2.\nMake sure to create mindmap at the end using excalidraw",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-05-terraform-part-1.md\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-03-06-terraform-part-2.md\n\nCreate notes by taking this as refereance. Only one note instead of 2.\nMake sure to create mindmap at the end using excalidraw",
+      "images": [],
+      "contentDigest": "26ff37fef24959641d9787f824b95e969a67f3cd8ed647d65d6b29ba994ef908",
+      "providerAssistantMessageId": "msg_049ad5553001DgrwK4Md6mCm3r",
+      "providerUserMessageId": "msg_049ac8e9b00189YBpPcuXheaFC"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787987186293-vjppo88",
+      "userTurnOrdinal": 37,
+      "state": "accepted",
+      "localMessageId": "msg-1787987186272-hay8a7y",
+      "timestamp": 1787987186272,
+      "rawDisplayText": "Do you know about the project that is built on day 7?",
+      "canonicalText": "Do you know about the project that is built on day 7?",
+      "images": [],
+      "contentDigest": "ccc879826eb9632b0505c4ebab0c263d1ea1dd5cf64a3b653dc67633d3993b4c",
+      "providerAssistantMessageId": "msg_04c581c70001XbbxIjDLYwfG2a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787987294775-51dd2td",
+      "userTurnOrdinal": 38,
+      "state": "accepted",
+      "localMessageId": "msg-1787987294771-378tv91",
+      "timestamp": 1787987294771,
+      "rawDisplayText": "Can you write about the project in projects section and draw a diagram in excalidraw",
+      "canonicalText": "Can you write about the project in projects section and draw a diagram in excalidraw",
+      "images": [],
+      "contentDigest": "23dae07b010d7832eebfeb9623807f6c8e4e441412cf7279891d023e3344bbd1",
+      "providerAssistantMessageId": "msg_04c5a6e5c001K4obPQy2uAQqlP"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787988188727-8iida4w",
+      "userTurnOrdinal": 39,
+      "state": "accepted",
+      "localMessageId": "msg-1787988188722-3whgcrn",
+      "timestamp": 1787988188722,
+      "rawDisplayText": "lint and SCA is happening in local? or CI pipeline?",
+      "canonicalText": "lint and SCA is happening in local? or CI pipeline?",
+      "images": [],
+      "contentDigest": "f7ccf42806f785b1f717282f784f8b44a633f37ee9c24d10079118522663bf1f",
+      "providerAssistantMessageId": "msg_04c669e6b001iGdiPVOUwTC30W"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787988224446-fo53nza",
+      "userTurnOrdinal": 40,
+      "state": "accepted",
+      "localMessageId": "msg-1787988224442-t9uqmus",
+      "timestamp": 1787988224442,
+      "rawDisplayText": "Can you specify that then?",
+      "canonicalText": "Can you specify that then?",
+      "images": [],
+      "contentDigest": "92433fbd94e118c0bd606525edd8dc5de6beebaa6be10e34c49dadd5980dde54",
+      "providerAssistantMessageId": "msg_04c67b8010012agU3mgg9DM3aV"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787988725958-p8kfxya",
+      "userTurnOrdinal": 41,
+      "state": "accepted",
+      "localMessageId": "msg-1787988725949-4ms7vsi",
+      "timestamp": 1787988725949,
+      "rawDisplayText": "why are you pushing the image before scanning with trivy?",
+      "canonicalText": "why are you pushing the image before scanning with trivy?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "Build and push: Docker images for both components pushed to GitHub Container Registry, tagged with the commit ID, SBOM generated (ingredients list of each image)",
+          "lineCount": 1,
+          "startLine": 24
+        }
+      },
+      "images": [],
+      "contentDigest": "299aa873c5c9a05bedaedf6cff647422ab9006cc01d5754c05a2c55ebf8ef60e",
+      "providerAssistantMessageId": "msg_04c6ed0f700124HJHq6EgVbCJ1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787988922413-b5b7o7a",
+      "userTurnOrdinal": 42,
+      "state": "accepted",
+      "localMessageId": "msg-1787988922404-cujt9ws",
+      "timestamp": 1787988922404,
+      "rawDisplayText": "No, just reorder stuff. build, image scan and then push\nAlso i think IAC seems to be a different pipeline. why are you mixing up?",
+      "canonicalText": "No, just reorder stuff. build, image scan and then push\nAlso i think IAC seems to be a different pipeline. why are you mixing up?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "Build and push: Docker images for both components pushed to GitHub Container Registry, tagged with the commit ID, SBOM generated (ingredients list of each image)",
+          "lineCount": 1,
+          "startLine": 24
+        }
+      },
+      "images": [],
+      "contentDigest": "b63121b5b30c7bb39e468ee25d17f78acae7855c65f2a5b602e09c3ea92d18cf",
+      "providerAssistantMessageId": "msg_04c72223a001Yzc9pm8HAbo5G4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989024276-455ti8b",
+      "userTurnOrdinal": 43,
+      "state": "accepted",
+      "localMessageId": "msg-1787989024269-3z28a91",
+      "timestamp": 1787989024269,
+      "rawDisplayText": "why are you doing dockerfile lint after pushing the image?",
+      "canonicalText": "why are you doing dockerfile lint after pushing the image?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "6. Dockerfile lint: Hadolint on both Dockerfiles",
+          "lineCount": 1,
+          "startLine": 27
+        }
+      },
+      "images": [],
+      "contentDigest": "6c65d706959979f6b8d5366a54b52ccd81a99d27fc84aa098a60473e05394c8b",
+      "providerAssistantMessageId": "msg_04c739283001a5028dGGvhZN6i"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989089968-rrsypjf",
+      "userTurnOrdinal": 44,
+      "state": "accepted",
+      "localMessageId": "msg-1787989089960-zpmfz7l",
+      "timestamp": 1787989089960,
+      "rawDisplayText": "Yes man. Also\n\nSeparate infrastructure pipeline: Checkov scans the Terraform and Kubernetes manifests (the `iac-scan` job runs parallel to the app pipeline, after lint, not as a stage inside it). The app pipeline tests application changes; the IaC scan gates infrastructure changes. In Jerney they happen to live in the same workflow file, but they are logically two pipelines.\n\n\nwrite this as points. easier to read",
+      "canonicalText": "Yes man. Also\n\nSeparate infrastructure pipeline: Checkov scans the Terraform and Kubernetes manifests (the `iac-scan` job runs parallel to the app pipeline, after lint, not as a stage inside it). The app pipeline tests application changes; the IaC scan gates infrastructure changes. In Jerney they happen to live in the same workflow file, but they are logically two pipelines.\n\n\nwrite this as points. easier to read",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "\nSeparate infrastructure pipeline: Checkov scans the Terraform and Kubernetes manifests (the `iac-scan` job runs parallel to the app pipeline, after lint, not as a stage inside it). The app pipeline tests application changes; the IaC scan gates infrastructure changes. In Jerney they happen to live in the same workflow file, but they are logically two pipelines.",
+          "lineCount": 2,
+          "startLine": 29
+        }
+      },
+      "images": [],
+      "contentDigest": "e799f5e68e431f8f887f1fa2de922381acab7504ed8593c003dbd2a3624b0371",
+      "providerAssistantMessageId": "msg_04c7507fd001xVwCYIoFeQLCao"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989248275-io3oo0c",
+      "userTurnOrdinal": 45,
+      "state": "accepted",
+      "localMessageId": "msg-1787989248267-x4nybdx",
+      "timestamp": 1787989248267,
+      "rawDisplayText": "Deploy manifest update: on merge to main only, rewrites the Kubernetes manifest to point at the new image tags (by commit ID) and commits it. GitOps style: the config in Git always says exactly which version should run.\n\n\nwtf; i thought merge to main triggered the stages",
+      "canonicalText": "Deploy manifest update: on merge to main only, rewrites the Kubernetes manifest to point at the new image tags (by commit ID) and commits it. GitOps style: the config in Git always says exactly which version should run.\n\n\nwtf; i thought merge to main triggered the stages",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": " Deploy manifest update: on merge to main only, rewrites the Kubernetes manifest to point at the new image tags (by commit ID) and commits it. GitOps style: the config in Git always says exactly which version should run.",
+          "lineCount": 1,
+          "startLine": 28
+        }
+      },
+      "images": [],
+      "contentDigest": "8ed789dd5f9d4590e3a8c5c463dcfff47275b50f329f07fd256b40c863bf34ee",
+      "providerAssistantMessageId": "msg_04c76c945001vETMXwnbT4FpR1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989326617-hotmf09",
+      "userTurnOrdinal": 46,
+      "state": "accepted",
+      "localMessageId": "msg-1787989326613-n2c2971",
+      "timestamp": 1787989326613,
+      "rawDisplayText": "it's fine",
+      "canonicalText": "it's fine",
+      "images": [],
+      "contentDigest": "7b5309e344df85b57ff88f4f028981df4ab490a7af63f25336efc33d3413a03a",
+      "providerAssistantMessageId": "msg_04c77fb44001D0e8jYS6nBP7uA"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989656945-vi80z2a",
+      "userTurnOrdinal": 47,
+      "state": "accepted",
+      "localMessageId": "msg-1787989656937-llxlgvy",
+      "timestamp": 1787989656937,
+      "rawDisplayText": "terraform and k8s in same pipeline?",
+      "canonicalText": "terraform and k8s in same pipeline?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "- Checkov scans the Terraform and Kubernetes manifests\n",
+          "lineCount": 2,
+          "startLine": 31
+        }
+      },
+      "images": [],
+      "contentDigest": "7c35465a6ef9ea3f2ed7a50e6941fd5db94c8859feaf6a1f94402555504e4ea5",
+      "providerAssistantMessageId": "msg_04c7d05a2001HgA6LB27zZn76i"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989686875-rhrd7er",
+      "userTurnOrdinal": 48,
+      "state": "accepted",
+      "localMessageId": "msg-1787989686870-s8mkdqi",
+      "timestamp": 1787989686870,
+      "rawDisplayText": "Seperate it",
+      "canonicalText": "Seperate it",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "- Checkov scans the Terraform and Kubernetes manifests",
+          "lineCount": 1,
+          "startLine": 31
+        }
+      },
+      "images": [],
+      "contentDigest": "1c83ff5006394dab39dffb16beef9cf4dbfc27dafa06fd6db2d3949ac91dc484",
+      "providerAssistantMessageId": "msg_04c7d94c30018UUu09vW9oup5C"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989762207-sypbi60",
+      "userTurnOrdinal": 49,
+      "state": "accepted",
+      "localMessageId": "msg-1787989762202-rpdjjn8",
+      "timestamp": 1787989762202,
+      "rawDisplayText": "Still not clear if both are separate",
+      "canonicalText": "Still not clear if both are separate",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "Separate infrastructure pipeline:",
+          "lineCount": 1,
+          "startLine": 30
+        }
+      },
+      "images": [],
+      "contentDigest": "3d81ac2bfcf952dbda6a8beb11867ac910a3e1d6b6e4028d3c80cc921b3f6133",
+      "providerAssistantMessageId": "msg_04c7edb93001Xvf272O3hPTbE8"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989819129-l7ebqlo",
+      "userTurnOrdinal": 50,
+      "state": "accepted",
+      "localMessageId": "msg-1787989819125-qn6rvs6",
+      "timestamp": 1787989819125,
+      "rawDisplayText": "Now refactor the doc as if it was written in a single go.",
+      "canonicalText": "Now refactor the doc as if it was written in a single go.",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "Separate infrastructure pipeline:",
+          "lineCount": 1,
+          "startLine": 30
+        }
+      },
+      "images": [],
+      "contentDigest": "de15ff9c7e0156149daba9206ea100fb7deb7b8affd8b59d400463ba5ebe464b",
+      "providerAssistantMessageId": "msg_04c7fdb21001H1WNF0AQuIo1K5"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787989944311-pt1m88a",
+      "userTurnOrdinal": 51,
+      "state": "accepted",
+      "localMessageId": "msg-1787989944302-xwl4ys0",
+      "timestamp": 1787989944302,
+      "rawDisplayText": "Jerney will do what I say; It will have three different pipelines. Now refactor the doc as if it was written in a single go.",
+      "canonicalText": "Jerney will do what I say; It will have three different pipelines. Now refactor the doc as if it was written in a single go.",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "Separate infrastructure pipeline:",
+          "lineCount": 1,
+          "startLine": 30
+        }
+      },
+      "images": [],
+      "contentDigest": "31bcd2498b623214f70f7aa3af790fd70b63ef4a13888a7d695329a97c3c4ec8",
+      "providerAssistantMessageId": "msg_04c81a262001MrBi29QB3xVYSO"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787990967968-gp76ni4",
+      "userTurnOrdinal": 52,
+      "state": "accepted",
+      "localMessageId": "msg-1787990967963-jt4mr7f",
+      "timestamp": 1787990967963,
+      "rawDisplayText": "Can you write a new section on how exactly secrets are pulled.",
+      "canonicalText": "Can you write a new section on how exactly secrets are pulled.",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "2. On merge to main: rewrite the manifest to point at the new image tags (by commit ID) and commit it. GitOps style: the config in Git always says exactly which version should run, and the cluster pulls that exact version.",
+          "lineCount": 1,
+          "startLine": 50
+        }
+      },
+      "images": [],
+      "contentDigest": "94745c7aa0f2f23e9919846ae63e659c98b7f6b9a803be60081f231d4822ae7e",
+      "providerAssistantMessageId": "msg_04c91693f001S6ZLCT1yL5mDXg"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787991131873-f1rofph",
+      "userTurnOrdinal": 53,
+      "state": "accepted",
+      "localMessageId": "msg-1787991131864-03kl8u6",
+      "timestamp": 1787991131864,
+      "rawDisplayText": "GitHub signs a short-lived token (OIDC) that says \"I am this repo's workflow\". \n\nThis is too compressed",
+      "canonicalText": "GitHub signs a short-lived token (OIDC) that says \"I am this repo's workflow\". \n\nThis is too compressed",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "GitHub signs a short-lived token (OIDC) that says \"I am this repo's workflow\"",
+          "lineCount": 1,
+          "startLine": 71
+        }
+      },
+      "images": [],
+      "contentDigest": "12662eb45f288b0a40d90ca7857d8a460c395fce9baa7a887f423b163cb7fbcd",
+      "providerAssistantMessageId": "msg_04c93a3230016bsZsOkfnSuNlT"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787991170014-sgxzcvb",
+      "userTurnOrdinal": 54,
+      "state": "accepted",
+      "localMessageId": "msg-1787991170007-kxtlrzu",
+      "timestamp": 1787991170007,
+      "rawDisplayText": "Why should aws trust the token generated by github?",
+      "canonicalText": "Why should aws trust the token generated by github?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Projects/Jerney - Secops.md",
+          "mode": "selection",
+          "selectedText": "GitHub signs a short-lived token (OIDC) that says \"I am this repo's workflow\"",
+          "lineCount": 1,
+          "startLine": 71
+        }
+      },
+      "images": [],
+      "contentDigest": "53b346b39a91e807e26becd228b42f1f5c94fb12746faaf853e1473dd91e5f49",
+      "providerAssistantMessageId": "msg_04c941c0a001Smr3jvM0gGRs21"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787592829995-m74t7jfjr",
+  "providerId": "opencode",
+  "title": "Clarify CNAME vs Route 53 Alias",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787592830001,
+  "lastActivityAt": 1787595375242,
+  "sessionId": "ses_fcb2a10beffeSM7hq2bzQP9QmX",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/AWS/Route 53 & Global Accelerator.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 31003,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 3
+  }
+}

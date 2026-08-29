@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787683589898-n620mu8jo",
+  "providerId": "opencode",
+  "title": "Design three-tier AWS architecture diagram",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787683589903,
+  "lastActivityAt": 1787684986326,
+  "sessionId": "ses_fc5c12df4ffeY6esTYeM2aWnmz",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/Projects/Three Tier Architecture.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 21590,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 2
+  }
+}

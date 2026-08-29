@@ -1,0 +1,15 @@
+{
+  "id": "conv-1787992089276-3l5fck6rd",
+  "providerId": "opencode",
+  "title": "Consolidate AWS documentation pages",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787992089284,
+  "lastActivityAt": 1787993212625,
+  "sessionId": "ses_fb35dd9c8ffeCYftW4qCPLqRfY",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/Projects/Jerney - Secops.md"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787686178264-xdcc0i7ls",
+  "providerId": "opencode",
+  "title": "Explain AWS Global Accelerator static IP routing",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787686178269,
+  "lastActivityAt": 1787686353134,
+  "sessionId": "ses_fc599ae0cffeS6HPHDqLkqapg3",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/AWS/Route 53 & Global Accelerator.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 22320,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 2
+  }
+}

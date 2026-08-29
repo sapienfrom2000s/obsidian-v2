@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(for f in \"Ops/AWS/AWS.md\" \"Ops/AWS/Compute & Messaging.md\" \"Ops/AWS/Data Services.md\" \"Ops/AWS/Foundations.md\" \"Ops/AWS/Networking & Content Delivery.md\" \"Ops/AWS/Security & Operations.md\"; do echo \"=== $f ===\"; grep -nE '^#{1,4} ' \"$f\"; done)",
+      "Bash(python3 /tmp/mm/gen.py)",
+      "Write(/tmp/mm/gen.py)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enabledPlugins": {
+    "ruby-lsp@claude-plugins-official": false
+  }
+}

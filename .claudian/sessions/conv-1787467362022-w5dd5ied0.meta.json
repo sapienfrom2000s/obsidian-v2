@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787467362022-w5dd5ied0",
+  "providerId": "opencode",
+  "title": "Explain VPC endpoints for AWS network optimization",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787467362030,
+  "lastActivityAt": 1787467569349,
+  "sessionId": "ses_fd2a48dd6ffehNRDlh3rL5RdRy",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/AWS/VPC.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 15728,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 2
+  }
+}

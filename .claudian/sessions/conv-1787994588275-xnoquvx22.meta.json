@@ -1,0 +1,15 @@
+{
+  "id": "conv-1787994588275-xnoquvx22",
+  "providerId": "opencode",
+  "title": "I need more context to generate a meaningful ti...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787994588281,
+  "lastActivityAt": 1787995488578,
+  "sessionId": "ses_fb337b874ffeORoIglQRjkufOd",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": false
+  },
+  "currentNote": "Ops/Checklist.md"
+}

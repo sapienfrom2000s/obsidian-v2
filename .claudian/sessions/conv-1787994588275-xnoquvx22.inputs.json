@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787994588275-xnoquvx22",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787994588308-6eqhk1a",
+      "userTurnOrdinal": 1,
+      "state": "staged",
+      "localMessageId": "msg-1787994588270-8t7a1iq",
+      "timestamp": 1787994588270,
+      "rawDisplayText": "Hey",
+      "canonicalText": "Hey",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Checklist.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "06ed3db7c59994e58da0bf25b58dbd99a1652a6c898ace23e5ca49225332961e"
+    }
+  ]
+}

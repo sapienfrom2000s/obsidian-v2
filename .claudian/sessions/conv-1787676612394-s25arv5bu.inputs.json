@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787676612394-s25arv5bu",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787676612485-6rol17m",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787676612388-hlvcha4",
+      "timestamp": 1787676612388,
+      "rawDisplayText": "Draw diagram for sqs. make sure to show case groups",
+      "canonicalText": "Draw diagram for sqs. make sure to show case groups",
+      "context": {
+        "currentNote": {
+          "path": "Ops/AWS/Messaging.md"
+        },
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Durable, distributed queue: producer writes → consumer polls, processes, deletes. Until explicit `DeleteMessage`, the message stays. This makes SQS **at-least-once delivery** — duplicates happen, so **consumers must be idempotent** (processing a message twice must produce the same result as once).\n\n- **Standard** — unlimited throughput, no ordering guarantee, possible duplicates.\n- **FIFO** — strict ordering within a **message group** (same group ID → ordered, never concurrent); 300 msg/s cap (3,000 batched). Exactly-once via **deduplication ID** (duplicates within 5 min discarded). Use only when ordering genuinely matters.",
+          "lineCount": 4,
+          "startLine": 7
+        }
+      },
+      "images": [],
+      "contentDigest": "01d12bdbc67302ec439110e6a8b075e30f6435b3f581c527ff83fed878f7495e",
+      "providerAssistantMessageId": "msg_039d4b03b001TSvWUDsGCOmoYw",
+      "providerUserMessageId": "msg_039d45d39001KdYt0uDxArFSJs"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787676808691-2qivelt",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787676808684-4f3pa2q",
+      "timestamp": 1787676808684,
+      "rawDisplayText": "in the diagram you just gave example of fifo queue. include standard queue as well in the diagram",
+      "canonicalText": "in the diagram you just gave example of fifo queue. include standard queue as well in the diagram",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Durable, distributed queue: producer writes → consumer polls, processes, deletes. Until explicit `DeleteMessage`, the message stays. This makes SQS **at-least-once delivery** — duplicates happen, so **consumers must be idempotent** (processing a message twice must produce the same result as once).\n\n- **Standard** — unlimited throughput, no ordering guarantee, possible duplicates.\n- **FIFO** — strict ordering within a **message group** (same group ID → ordered, never concurrent); 300 msg/s cap (3,000 batched). Exactly-once via **deduplication ID** (duplicates within 5 min discarded). Use only when ordering genuinely matters.",
+          "lineCount": 4,
+          "startLine": 7
+        }
+      },
+      "images": [],
+      "contentDigest": "31a2ef52662e869cf8d55006256a23cb4cf583f9eda21c449a1ce6a50af0d5f1",
+      "providerAssistantMessageId": "msg_039d79437001OWGEm3qiTFLaRI",
+      "providerUserMessageId": "msg_039d75619001KECUjccLHGwRuL"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678012316-nkykdxf",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787678012309-oa0nrbw",
+      "timestamp": 1787678012309,
+      "rawDisplayText": "Draw diagram for Kinesis Data Streams as well",
+      "canonicalText": "Draw diagram for Kinesis Data Streams as well",
+      "images": [],
+      "contentDigest": "834de4b0e9ec843fd433d3cd6a6b48d6ec2fda404478e8d1fc28657c8aaba1e8",
+      "providerAssistantMessageId": "msg_039e9fab1001PRZFzEZBIVbkbp",
+      "providerUserMessageId": "msg_039e9b3c2001tHHgUzwwb67nGK"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678080160-vonm3ks",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1787678080157-xs2rudo",
+      "timestamp": 1787678080157,
+      "rawDisplayText": "Too complicated to read",
+      "canonicalText": "Too complicated to read",
+      "images": [],
+      "contentDigest": "cc8d22fb87b2ed669ea7933758097bf5181c998a71e580d987eec0c485f8c821",
+      "providerAssistantMessageId": "msg_039eae622001Da5LkxredQ2Xvz",
+      "providerUserMessageId": "msg_039eabcc3001jfvK3K63f56Wnt"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678420911-1jt2k47",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1787678420902-hz7syiy",
+      "timestamp": 1787678420902,
+      "rawDisplayText": "give an example of replaying",
+      "canonicalText": "give an example of replaying",
+      "images": [],
+      "contentDigest": "45d0d9b0057a7a9f9caf607f7b010bfb1034ee08b3da2ebbe2b54a3eae28be16",
+      "providerAssistantMessageId": "msg_039f00d1c001ziwXQrXOaryWPU",
+      "providerUserMessageId": "msg_039efefd2001qW34pV9VctLd2p"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678450995-p35bkey",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1787678450991-lq6vzs0",
+      "timestamp": 1787678450991,
+      "rawDisplayText": "shit example",
+      "canonicalText": "shit example",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "int back to record 0** and re-run: the consumer re-reads the last 14 hours of events and rebuilds correct fraud scores. The dashboard and warehouse consumers never notice — their checkpoints are untouched. With SQS this is impossible: messages were deleted as they were consumed, the history is gone.",
+          "lineCount": 1,
+          "startLine": 173
+        }
+      },
+      "images": [],
+      "contentDigest": "6a5463a257a9681554882d34163a890cb1e0cfaf981dc64d0632def3ae08d060",
+      "providerAssistantMessageId": "msg_039f0892c001fS18jvMua8mFsF",
+      "providerUserMessageId": "msg_039f06557001uTDv6tjxuxKqZI"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678681842-o6dbeeo",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1787678681835-zaf8qbr",
+      "timestamp": 1787678681835,
+      "rawDisplayText": "Actually, I didn't understand the usecase of kinesis data streams and when it is used",
+      "canonicalText": "Actually, I didn't understand the usecase of kinesis data streams and when it is used",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "int back to record 0** and re-run: the consumer re-reads the last 14 hours of events and rebuilds correct fraud scores. The dashboard and warehouse consumers never notice — their checkpoints are untouched. With SQS this is impossible: messages were deleted as they were consumed, the history is gone.",
+          "lineCount": 1,
+          "startLine": 173
+        }
+      },
+      "images": [],
+      "contentDigest": "56cab19bff93a57b364f1edec0bffb3175f7a6ea750ad7f3fa96a9c943050cd0",
+      "providerAssistantMessageId": "msg_039f415fe001GSGeLRVoWqbfln",
+      "providerUserMessageId": "msg_039f3eb14001wrZKdHbNbKXKCp"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678765917-snzosmu",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1787678765911-jur9j1i",
+      "timestamp": 1787678765911,
+      "rawDisplayText": "so it",
+      "canonicalText": "so it",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "int back to record 0** and re-run: the consumer re-reads the last 14 hours of events and rebuilds correct fraud scores. The dashboard and warehouse consumers never notice — their checkpoints are untouched. With SQS this is impossible: messages were deleted as they were consumed, the history is gone.",
+          "lineCount": 1,
+          "startLine": 173
+        }
+      },
+      "images": [],
+      "contentDigest": "3e8ed2a84e50f6d29ff05663e779e17f19e434db0f00ea30654f824a9b5f3297",
+      "providerUserMessageId": "msg_039f5338100156zg0tc7B7eBvH",
+      "providerAssistantMessageId": "msg_039f53387001v5oU32EMTuF9Cm"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678774684-5mmc2ac",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1787678774678-bu7u183",
+      "timestamp": 1787678774678,
+      "rawDisplayText": "so it's like a big log?",
+      "canonicalText": "so it's like a big log?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "int back to record 0** and re-run: the consumer re-reads the last 14 hours of events and rebuilds correct fraud scores. The dashboard and warehouse consumers never notice — their checkpoints are untouched. With SQS this is impossible: messages were deleted as they were consumed, the history is gone.",
+          "lineCount": 1,
+          "startLine": 173
+        }
+      },
+      "images": [],
+      "contentDigest": "7590172bbb7d526cd7e042fb895309e08f278a7222285718f56bf619cf559a26",
+      "providerAssistantMessageId": "msg_039f558ac001KEZHwvKugF0Jq6",
+      "providerUserMessageId": "msg_039f558a1001uaX2mayZMDew6h"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787678811814-4u1r8t3",
+      "userTurnOrdinal": 10,
+      "state": "accepted",
+      "localMessageId": "msg-1787678811808-55fexcq",
+      "timestamp": 1787678811808,
+      "rawDisplayText": "what is r1, r2 and r3?",
+      "canonicalText": "what is r1, r2 and r3?",
+      "images": [],
+      "contentDigest": "b29d19f33d4f2f2298c7287d4c4a7b8678aba7d0d7d4bedf0b22099cf1b827b9",
+      "providerAssistantMessageId": "msg_039f5fd82001pjIiLtA1HG3epu",
+      "providerUserMessageId": "msg_039f5e6c9001LvX9asJTNr9tPB"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679054392-vlokz45",
+      "userTurnOrdinal": 11,
+      "state": "accepted",
+      "localMessageId": "msg-1787679054386-hxjyinx",
+      "timestamp": 1787679054386,
+      "rawDisplayText": "Do the same with data firehose",
+      "canonicalText": "Do the same with data firehose",
+      "images": [],
+      "contentDigest": "1da49f03c459e332635d303370d0edff69ea5f330d4d55723b1ae038ac46fdc2",
+      "providerAssistantMessageId": "msg_039f9cda0001XGlBs9ElHXxbFn",
+      "providerUserMessageId": "msg_039f99a5b0014FUMK6wvCyZcN4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679197050-mpg25wt",
+      "userTurnOrdinal": 12,
+      "state": "accepted",
+      "localMessageId": "msg-1787679197044-tsujvvy",
+      "timestamp": 1787679197044,
+      "rawDisplayText": "same for amazon mq",
+      "canonicalText": "same for amazon mq",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Existing JMS/AMQP/MQTT app?        → Amazon MQ (migration path)",
+          "lineCount": 1,
+          "startLine": 257
+        }
+      },
+      "images": [],
+      "contentDigest": "aeedd83ddaab2d436dccb4e009c76c939d481c0b8cc212c02c94e05f6c207da4",
+      "providerAssistantMessageId": "msg_039fbe7fd001kX673Q4Jh70ODC",
+      "providerUserMessageId": "msg_039fbc79c001zfYA1BFKUGsBNu"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679413447-ij88pgp",
+      "userTurnOrdinal": 13,
+      "state": "accepted",
+      "localMessageId": "msg-1787679413441-2ze4qsm",
+      "timestamp": 1787679413441,
+      "rawDisplayText": "do not use jargons",
+      "canonicalText": "do not use jargons",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Existing JMS/AMQP/MQTT app?        → Amazon MQ (migration path)",
+          "lineCount": 1,
+          "startLine": 257
+        }
+      },
+      "images": [],
+      "contentDigest": "f521842e5165fd86d44e8c84fe6ac8e797cae8f59a105803570db167ce331f20",
+      "providerAssistantMessageId": "msg_039ff4dcf001q7mHFrRg1vg8mv",
+      "providerUserMessageId": "msg_039ff14eb001p2wR8PYk5VX2ew"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679574641-phnsppn",
+      "userTurnOrdinal": 14,
+      "state": "accepted",
+      "localMessageId": "msg-1787679574638-2bdlwlt",
+      "timestamp": 1787679574638,
+      "rawDisplayText": "you didn't draw the diagram for Amazon MQ correctly. it doesn't show at all what it does",
+      "canonicalText": "you didn't draw the diagram for Amazon MQ correctly. it doesn't show at all what it does",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Existing JMS/AMQP/MQTT app?        → Amazon MQ (migration path)",
+          "lineCount": 1,
+          "startLine": 257
+        }
+      },
+      "images": [],
+      "contentDigest": "1745608397ee1faf728615f24d41f466d07d03bd6b48a24ae15850816205df82",
+      "providerAssistantMessageId": "msg_03a01af01001fsWQ4OWgdrXm3n",
+      "providerUserMessageId": "msg_03a018a95001hnGXohzjZn2Rh1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679616335-6poq9xe",
+      "userTurnOrdinal": 15,
+      "state": "accepted",
+      "localMessageId": "msg-1787679616330-dwwphpc",
+      "timestamp": 1787679616330,
+      "rawDisplayText": "fuck u; just show me the usage of amazon mq mate",
+      "canonicalText": "fuck u; just show me the usage of amazon mq mate",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Existing JMS/AMQP/MQTT app?        → Amazon MQ (migration path)",
+          "lineCount": 1,
+          "startLine": 257
+        }
+      },
+      "images": [],
+      "contentDigest": "0b6e1540e13bce43bb5ae3f077666d097ed827dc8fca702a00bae439738b4d6b",
+      "providerAssistantMessageId": "msg_03a02471a001ywSe8dMqUZX5p7",
+      "providerUserMessageId": "msg_03a022d70001B2nYWnvwKxp4YT"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679638810-gg9kg3n",
+      "userTurnOrdinal": 16,
+      "state": "accepted",
+      "localMessageId": "msg-1787679638803-s61fgrn",
+      "timestamp": 1787679638803,
+      "rawDisplayText": "Explain message broker",
+      "canonicalText": "Explain message broker",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "Existing JMS/AMQP/MQTT app?        → Amazon MQ (migration path)",
+          "lineCount": 1,
+          "startLine": 257
+        }
+      },
+      "images": [],
+      "contentDigest": "00e8fe4b6484d3498e6d37837c864864fbaf61114f4eae77fc1e11ffc718414d",
+      "providerAssistantMessageId": "msg_03a02853e001aFJbLvTEEM9QmW",
+      "providerUserMessageId": "msg_03a02853900110klIIvgTftBNk"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679690399-ypask42",
+      "userTurnOrdinal": 17,
+      "state": "accepted",
+      "localMessageId": "msg-1787679690395-ii9zbdz",
+      "timestamp": 1787679690395,
+      "rawDisplayText": "it's the same producer consumer concept?",
+      "canonicalText": "it's the same producer consumer concept?",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "With",
+          "lineCount": 1,
+          "startLine": 279
+        }
+      },
+      "images": [],
+      "contentDigest": "d686a05717d5292ba7825eadeb046929832ae246fb18bafaaa96f4b060c014d9",
+      "providerAssistantMessageId": "msg_03a034ecb001fmvZqqcNZlDDIL",
+      "providerUserMessageId": "msg_03a034ec4001y7z7rUknAx4lPi"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679700366-ic71n28",
+      "userTurnOrdinal": 18,
+      "state": "accepted",
+      "localMessageId": "msg-1787679700364-6vhe7vq",
+      "timestamp": 1787679700364,
+      "rawDisplayText": "Tell that macha",
+      "canonicalText": "Tell that macha",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "With",
+          "lineCount": 1,
+          "startLine": 279
+        }
+      },
+      "images": [],
+      "contentDigest": "f6b9436b05ae06b83c218f3944da77e9ba5d9c12a05f1fb21c5957325c6e14e2",
+      "providerAssistantMessageId": "msg_03a0375b5001Daz15QtryM8Pj2",
+      "providerUserMessageId": "msg_03a0375af0010ATVCTMC4h3W4L"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787679739950-wsmqhq9",
+      "userTurnOrdinal": 19,
+      "state": "accepted",
+      "localMessageId": "msg-1787679739944-o30n5p4",
+      "timestamp": 1787679739944,
+      "rawDisplayText": "write in notes about the idea of publishing and consuming. do not use jargons. keep it compact",
+      "canonicalText": "write in notes about the idea of publishing and consuming. do not use jargons. keep it compact",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Messaging.md",
+          "mode": "selection",
+          "selectedText": "With",
+          "lineCount": 1,
+          "startLine": 279
+        }
+      },
+      "images": [],
+      "contentDigest": "3286a7ae91d34b3087cece71b586bd76a9dd519270e038649d92eca11d728a0b",
+      "providerAssistantMessageId": "msg_03a042338001mcdDphl2NygHxL",
+      "providerUserMessageId": "msg_03a041058001MvwjLDw72zeblC"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787681000356-5ul9wjj",
+      "userTurnOrdinal": 20,
+      "state": "accepted",
+      "localMessageId": "msg-1787681000349-wj9zyo7",
+      "timestamp": 1787681000349,
+      "rawDisplayText": "Reading @Ops/AWS/Containers & Serverless.md . Draw diagrams",
+      "canonicalText": "Reading @Ops/AWS/Containers & Serverless.md . Draw diagrams",
+      "images": [],
+      "contentDigest": "47a0846da650f765ddc325d368a0405707bf00cd4dcac3e7ced84624890bf886",
+      "providerAssistantMessageId": "msg_03a17bee6001tJMQJPg4jSCThD",
+      "providerUserMessageId": "msg_03a174bc7001QjaIQvX7vWh8vq"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787681153549-mg932zt",
+      "userTurnOrdinal": 21,
+      "state": "accepted",
+      "localMessageId": "msg-1787681153542-0pqxihd",
+      "timestamp": 1787681153542,
+      "rawDisplayText": "wtf is launch types exactly. you didn't define it",
+      "canonicalText": "wtf is launch types exactly. you didn't define it",
+      "images": [],
+      "contentDigest": "ffd4b8eae5208fb5e707bf409606d5fc202a1938024317cb0d03039b9162373d",
+      "providerAssistantMessageId": "msg_03a19c9d1001pMVm7F21ftRYfw",
+      "providerUserMessageId": "msg_03a19a231001daFIrLtewNSzVy"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787681850523-nyi4qiz",
+      "userTurnOrdinal": 22,
+      "state": "accepted",
+      "localMessageId": "msg-1787681850520-xiqaqg1",
+      "timestamp": 1787681850520,
+      "rawDisplayText": "blue green vs canary?",
+      "canonicalText": "blue green vs canary?",
+      "images": [],
+      "contentDigest": "e18eadd5e7946787c0a3e7fc95ad2ec98f8ca4e4c16ac5c7b165947d6d4b7ce4",
+      "providerAssistantMessageId": "msg_03a2444c6001hepTb2ZVYg7l5n"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787681902231-cp6bugs",
+      "userTurnOrdinal": 23,
+      "state": "accepted",
+      "localMessageId": "msg-1787681902225-pfg4cdn",
+      "timestamp": 1787681902225,
+      "rawDisplayText": "- **Blue/Green (CodeDeploy)** — new version runs alongside old; traffic shifted all-at-once, canary, or linear; automatic rollback to blue on failed health checks. Safer for production.\n\n\nhere it feels like both are the same thign",
+      "canonicalText": "- **Blue/Green (CodeDeploy)** — new version runs alongside old; traffic shifted all-at-once, canary, or linear; automatic rollback to blue on failed health checks. Safer for production.\n\n\nhere it feels like both are the same thign",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Containers & Serverless.md",
+          "mode": "selection",
+          "selectedText": "- **Blue/Green (CodeDeploy)** — new version runs alongside old; traffic shifted all-at-once, canary, or linear; automatic rollback to blue on failed health checks. Safer for production.",
+          "lineCount": 1,
+          "startLine": 63
+        }
+      },
+      "images": [],
+      "contentDigest": "d90aff4471eb19de53837ee6d20659670e2a04b070f448a241934db9fd38a39d",
+      "providerAssistantMessageId": "msg_03a2534a8001ruOgaDSERAnIQk"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787683405418-jxupn3c",
+      "userTurnOrdinal": 24,
+      "state": "accepted",
+      "localMessageId": "msg-1787683405409-hydhf5o",
+      "timestamp": 1787683405409,
+      "rawDisplayText": "can you access Excalidraw?",
+      "canonicalText": "can you access Excalidraw?",
+      "images": [],
+      "contentDigest": "a662d4bfb891a9934f27157737468ea4255a30f05e55f4829e4c3f65c19cda72",
+      "providerAssistantMessageId": "msg_03a3c16a0001Yj0STDXJy9nc7Z"
+    }
+  ]
+}

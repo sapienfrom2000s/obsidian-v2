@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787400607249-jjw0qjocf",
+  "providerId": "opencode",
+  "title": "Create AWS fundamentals notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787400607253,
+  "lastActivityAt": 1787466995958,
+  "sessionId": "ses_fd69f26eeffebvZUvoDqx1FVoG",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 161070,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 16
+  }
+}

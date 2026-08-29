@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787590938568-2ttq8mltq",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787590938650-44g7x2e",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787590938564-xvjo7kr",
+      "timestamp": 1787590938564,
+      "rawDisplayText": "@Ops/Python/Easy/Questions.md Please generate more easy level questions for my python + devops practice.",
+      "canonicalText": "@Ops/Python/Easy/Questions.md Please generate more easy level questions for my python + devops practice.",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Python/Easy/Questions.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "2a496a32e5fa4ffef04e26a9cb520f40a62923e92b6c8a438d9494591838b990",
+      "providerAssistantMessageId": "msg_034b96816001mBS4eaYz3IdTHs"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787590984832-2gtomhx",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787590984826-hcx0oog",
+      "timestamp": 1787590984826,
+      "rawDisplayText": "Only 8 questions",
+      "canonicalText": "Only 8 questions",
+      "images": [],
+      "contentDigest": "d847cf79e0caac390eca836d9339de3697f2690161c77483aaa9ff79d64a3ecf",
+      "providerAssistantMessageId": "msg_034b9ee03001yQPSWxrzRc4tfW"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787591008293-jsen4kg",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787591008288-hambhxy",
+      "timestamp": 1787591008288,
+      "rawDisplayText": "the old 6 + 8",
+      "canonicalText": "the old 6 + 8",
+      "images": [],
+      "contentDigest": "3418141e9a0c5b8340830bceaaf594dc1de7cb0fa48901c1c7b78e1b600a9621",
+      "providerAssistantMessageId": "msg_034ba384c001gjLu64b6oK0azb"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787336723203-44ew2xhxt",
+  "providerId": "opencode",
+  "title": "Read file",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787336723207,
+  "lastActivityAt": 1787385533735,
+  "sessionId": "ses_fda6df194ffePx7XTQImsL5lNx",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/Checklist.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 114312,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 11
+  }
+}

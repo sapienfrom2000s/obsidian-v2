@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787994337273-9mc2ut4zo",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787994337306-8jfxbc0",
+      "userTurnOrdinal": 1,
+      "state": "staged",
+      "localMessageId": "msg-1787994337270-lfjawb0",
+      "timestamp": 1787994337270,
+      "rawDisplayText": "Create a mindmap for AWS using excalidraw for each note inside aws.",
+      "canonicalText": "Create a mindmap for AWS using excalidraw for each note inside aws.",
+      "images": [],
+      "contentDigest": "3f6ece2e5c21148b1658e07d9277147a9b8ba685b9343d491007ec5cd34a1408"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787994575078-73fp5cr",
+      "userTurnOrdinal": 2,
+      "state": "staged",
+      "localMessageId": "msg-1787994575072-ef647pn",
+      "timestamp": 1787994575072,
+      "rawDisplayText": "Hey",
+      "canonicalText": "Hey",
+      "images": [],
+      "contentDigest": "06ed3db7c59994e58da0bf25b58dbd99a1652a6c898ace23e5ca49225332961e"
+    }
+  ]
+}

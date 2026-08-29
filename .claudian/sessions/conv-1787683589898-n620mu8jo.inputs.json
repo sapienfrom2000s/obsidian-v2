@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787683589898-n620mu8jo",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787683589933-xg7ybbn",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787683589892-frq2hgu",
+      "timestamp": 1787683589892,
+      "rawDisplayText": "Draw a detailed three tier architecture in excalidraw in AWS. Link and summarize here.",
+      "canonicalText": "Draw a detailed three tier architecture in excalidraw in AWS. Link and summarize here.",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Projects/Three Tier Architecture.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "8a7d0894b7f4a0647655dadd3a08d96a813d7fe7b0e3de2fc90825d75ff64d1d",
+      "providerAssistantMessageId": "msg_03a412752001tw31336JLO79pf"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684433241-ij4wjg8",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787684433235-0vbet2p",
+      "timestamp": 1787684433235,
+      "rawDisplayText": "Why cloudfront is sending traffic to IGW?",
+      "canonicalText": "Why cloudfront is sending traffic to IGW?",
+      "images": [],
+      "contentDigest": "bea50896e8cdc72c5bb8a57bf94a683a3c34085004e4d2f2164a5e88096b571a",
+      "providerAssistantMessageId": "msg_03a4c8bb0001rVrAUK2MLsoWqy"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684540211-4ih9o50",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787684540204-0eqw4wo",
+      "timestamp": 1787684540204,
+      "rawDisplayText": "but the arrow still points from CDN to IGW",
+      "canonicalText": "but the arrow still points from CDN to IGW",
+      "images": [],
+      "contentDigest": "a5c00580b82aee607200e043689c0af6360787674b04bc58c36977b7a888cc89",
+      "providerAssistantMessageId": "msg_03a4ddbbe001fPxpsEZWGqV0Yr"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684616327-m0nn3nm",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1787684616323-girgtgl",
+      "timestamp": 1787684616323,
+      "rawDisplayText": "what do you mean by enters VPC via IGW?",
+      "canonicalText": "what do you mean by enters VPC via IGW?",
+      "images": [],
+      "contentDigest": "c10d76644ac9c9a5fc6f3210aa1bbe4d7faac25cd852e0527cc5c5dc45b73b56",
+      "providerAssistantMessageId": "msg_03a4e78b2001DbAaCQu8cjI1Bw"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684753132-xyqdxf7",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1787684753127-bixyaad",
+      "timestamp": 1787684753127,
+      "rawDisplayText": "Okay but how will IGW receive traffic when it doesn't have IP. route 53 will resolve it to ALB",
+      "canonicalText": "Okay but how will IGW receive traffic when it doesn't have IP. route 53 will resolve it to ALB",
+      "images": [],
+      "contentDigest": "3c328dab0420d58cba35b84eb1b7a853c839638497a8583bc437f7177a600387",
+      "providerAssistantMessageId": "msg_03a508f17001XffKRZ1Rgy2S9r"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684813970-mqe93er",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1787684813964-6rowkhb",
+      "timestamp": 1787684813964,
+      "rawDisplayText": "then why can't i see this in diagram?",
+      "canonicalText": "then why can't i see this in diagram?",
+      "images": [],
+      "contentDigest": "3a9c03d2141c905aff422c331b4066ed3d40f66b46730717f9141275d44d0aa6",
+      "providerAssistantMessageId": "msg_03a51b950001wgCH43uBTC0I53"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684857920-si1p1p3",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1787684857913-100hwol",
+      "timestamp": 1787684857913,
+      "rawDisplayText": "do not write too much stuff;",
+      "canonicalText": "do not write too much stuff;",
+      "images": [],
+      "contentDigest": "ca8f33804247ef55abb2065930fb70c7aeb05223e0c81d16a551816d727692aa",
+      "providerAssistantMessageId": "msg_03a525481001kEUaCKiG3dvVF6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787684968743-1old5a1",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1787684968736-pnpiiwz",
+      "timestamp": 1787684968736,
+      "rawDisplayText": "imo there will be two arrows CDN -> IGW and user directly hitting IGW",
+      "canonicalText": "imo there will be two arrows CDN -> IGW and user directly hitting IGW",
+      "images": [],
+      "contentDigest": "c1f87e31916684cfcb276c995369fb583486e47852299141e5899a6eb6071674",
+      "providerAssistantMessageId": "msg_03a540de9001ab6q4jvob7LKe5"
+    }
+  ]
+}

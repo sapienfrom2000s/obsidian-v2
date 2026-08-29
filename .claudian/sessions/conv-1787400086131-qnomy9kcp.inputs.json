@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787400086131-qnomy9kcp",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400086212-nxwgdo2",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787400086127-p4otazq",
+      "timestamp": 1787400086127,
+      "rawDisplayText": "Need to create notes for AWS now;",
+      "canonicalText": "Need to create notes for AWS now;",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Checklist.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "97f51e3204cf90e611dc4a5c4c6d08eec9ce044759ea97252fa4eebc2f208dcc"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400200614-9xpslni",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787400200608-c3h3yn1",
+      "timestamp": 1787400200608,
+      "rawDisplayText": "don't write notes; I will feed you",
+      "canonicalText": "don't write notes; I will feed you",
+      "images": [],
+      "contentDigest": "b5d53927e71b89ed03229b2a717c0dce10f8642ed4b573ea644203c27632a435",
+      "providerAssistantMessageId": "msg_0295aa4aa0019Xt94BZ5atVlub"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400214811-4wlvyhn",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787400214806-nxdza5i",
+      "timestamp": 1787400214806,
+      "rawDisplayText": "remove the content",
+      "canonicalText": "remove the content",
+      "images": [],
+      "contentDigest": "138eb894b9f4328a24fcd55e8e50f4bc76cc1a1568e12294205ab8d79b661313",
+      "providerAssistantMessageId": "msg_0295ae77e001AOjQY6D1VPSBlT"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400245174-7imqxnw",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1787400245170-2uj2tgp",
+      "timestamp": 1787400245170,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-02-25-aws-fundamentals-iam-vpc-ec2-core-services.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-02-25-aws-fundamentals-iam-vpc-ec2-core-services.md",
+      "images": [],
+      "contentDigest": "8f25af84b920cc37e02820877fbca96e18d939764765eb1098def91c9f31a306"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400377093-gh3l59i",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1787400377087-c3t9nmx",
+      "timestamp": 1787400377087,
+      "rawDisplayText": "what are you doing?",
+      "canonicalText": "what are you doing?",
+      "images": [],
+      "contentDigest": "aee5eafd144ae5ddc3bbc0ab773f8439e7721f67a870a0ea75a0bd50e45759ed",
+      "providerAssistantMessageId": "msg_0295d5328001SzE1ZfnTdnGDaW"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400432666-n77sfsz",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1787400432660-n9vvujf",
+      "timestamp": 1787400432660,
+      "rawDisplayText": "IAM, VPC, EC2 & Core Services\n\nuse this title",
+      "canonicalText": "IAM, VPC, EC2 & Core Services\n\nuse this title",
+      "images": [],
+      "contentDigest": "2dc3f98d8505acc340ab4e797d0ea09ebac71790e7deddca365b1273457ba0d5"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787400550573-uw5cvj5",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1787400550567-5umddg3",
+      "timestamp": 1787400550567,
+      "rawDisplayText": "try again",
+      "canonicalText": "try again",
+      "images": [],
+      "contentDigest": "720a1353e51f8db7e40987bd7059a358a9d219e03bc491d6c6e927dc3f900eaa"
+    }
+  ]
+}

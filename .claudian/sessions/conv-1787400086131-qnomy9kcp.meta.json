@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787400086131-qnomy9kcp",
+  "providerId": "opencode",
+  "title": "Create AWS notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787400086137,
+  "lastActivityAt": 1787400594263,
+  "sessionId": "ses_fd6a7172fffeNRZ4gfW43fLCP1",
+  "selectedModel": "opencode:opencode-go/kimi-k3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/Checklist.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 0,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": false,
+    "inputTokens": 0,
+    "model": "opencode:opencode-go/kimi-k3",
+    "percentage": 0
+  }
+}

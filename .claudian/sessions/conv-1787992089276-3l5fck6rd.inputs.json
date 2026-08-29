@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787992089276-3l5fck6rd",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787992089382-yrmg8gn",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787992089273-cr7o9zb",
+      "timestamp": 1787992089273,
+      "rawDisplayText": "AWS has too many pages. Can we do something about it without cutting the content?",
+      "canonicalText": "AWS has too many pages. Can we do something about it without cutting the content?",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Projects/Jerney - Secops.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "75223940f5a4764144b1881f89a918563489e38dc65c84b1e3d2bf6d610878f4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787993144629-5fkwifw",
+      "userTurnOrdinal": 2,
+      "state": "staged",
+      "localMessageId": "msg-1787993144625-d3lchh1",
+      "timestamp": 1787993144625,
+      "rawDisplayText": "continue; took too much time",
+      "canonicalText": "continue; took too much time",
+      "images": [],
+      "contentDigest": "49b08379130234144d8f388598eaff438e36f823e71c3d7f2cbeaaa65f5d2bab"
+    }
+  ]
+}

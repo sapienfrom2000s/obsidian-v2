@@ -1,0 +1,24 @@
+{
+  "id": "conv-1787329060393-rnm5oen70",
+  "providerId": "opencode",
+  "title": "Remove question from note",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787329060399,
+  "lastActivityAt": 1787336711160,
+  "sessionId": "ses_fdae2de62ffeto11HswWshLQkb",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 33536,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": false,
+    "inputTokens": 0,
+    "model": "opencode:opencode-go/glm-5.3",
+    "percentage": 17
+  }
+}

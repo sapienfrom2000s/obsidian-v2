@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787995591562-u4kzm06is",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787995591583-9knml8g",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787995591558-qlssqqw",
+      "timestamp": 1787995591558,
+      "rawDisplayText": "Create a mindmap for AWS using excalidraw for each note inside aws.",
+      "canonicalText": "Create a mindmap for AWS using excalidraw for each note inside aws.",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Checklist.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "3f6ece2e5c21148b1658e07d9277147a9b8ba685b9343d491007ec5cd34a1408",
+      "providerUserMessageId": "8ec674ba-fadc-493e-8016-ce32e8d5f1b0",
+      "providerAssistantMessageId": "29823dc7-58db-473e-a5af-7a74dcebad51"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787995850697-i64hr7n",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787995850692-pt26pdv",
+      "timestamp": 1787995850692,
+      "rawDisplayText": "The drawings looks messed up",
+      "canonicalText": "The drawings looks messed up",
+      "images": [],
+      "contentDigest": "8acf24104ed2c2ca1a9c2e9910ffd839164d4c88bd9026e057ef975ac5284141",
+      "providerUserMessageId": "24745988-035b-4e11-b1d0-4d8e02a3d1cc",
+      "providerAssistantMessageId": "18f51f46-3337-40ae-9e75-15185bb66ae8"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787996044838-imd6sot",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787996044833-iec5zeq",
+      "timestamp": 1787996044834,
+      "rawDisplayText": "glm was better at this man",
+      "canonicalText": "glm was better at this man",
+      "images": [],
+      "contentDigest": "b4391b7c11fabd97e7180ce3fffd84837c9b443f2624c81027182a54434bd17f",
+      "providerUserMessageId": "d4fec1ba-2acf-4928-a873-6ef9284e26dd",
+      "providerAssistantMessageId": "3211014d-170b-4431-871d-3ab6adb0f82e"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787996081397-xzy3rs3",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1787996081395-pf8obcg",
+      "timestamp": 1787996081395,
+      "rawDisplayText": "shit mind map; create a single mindmap instead of multiple",
+      "canonicalText": "shit mind map; create a single mindmap instead of multiple",
+      "images": [],
+      "contentDigest": "2c0a59f02e44e83b51742ef9d6c9cad4e2a3c61b21939b4242730f5aa8f87ad4",
+      "providerUserMessageId": "387fdd42-10bb-471b-8c52-5ac7e9446e4b",
+      "providerAssistantMessageId": "6b47fcc9-6cdf-4c28-8243-db3eb1eb10ea"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787997272947-a28i2lf",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1787997272942-7zhwint",
+      "timestamp": 1787997272942,
+      "rawDisplayText": "Create mindmap for docker as well",
+      "canonicalText": "Create mindmap for docker as well",
+      "images": [],
+      "contentDigest": "7a15a81acff1c612273367303f7e8ad312dfd8367ef1ac841422a9e24e3203c2",
+      "providerUserMessageId": "62b257f0-dfa3-47b3-8559-d4bbc3907914",
+      "providerAssistantMessageId": "071dbebe-762a-4c5a-8363-04cacfeddd52"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787997378034-u2qqnbc",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1787997378032-8y6mxus",
+      "timestamp": 1787997378032,
+      "rawDisplayText": "Create mindmap for Linux as well",
+      "canonicalText": "Create mindmap for Linux as well",
+      "images": [],
+      "contentDigest": "d037604f794f1c149fd47c34d69bd5db3cf603a0872dcf304a0a584818d5c0e1",
+      "providerUserMessageId": "48591703-cc49-4ae2-9026-5f7541ee8b8e",
+      "providerAssistantMessageId": "8eaeb759-9fd1-4f95-b865-23f6e8cde60b"
+    }
+  ]
+}

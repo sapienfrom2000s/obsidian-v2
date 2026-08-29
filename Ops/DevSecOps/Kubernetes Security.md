@@ -1,0 +1,12 @@
+
+
+Kubernetes runs your containers on a cluster of machines: you say "run 3 copies of my app", it keeps them alive and spreads them out. Many teams share one cluster, which creates the security questions below.
+
+1. Namespaces: labeled sections of the cluster, one per team or project (payments, search). Other controls attach per namespace, so security starts here. By itself a namespace isolates nothing: everything can still reach everything. Foundation, not lock.
+2. RBAC: who can do what in the cluster. A Role lists allowed actions (e.g. "read pods"), a ServiceAccount is an identity (person or machine), a Binding glues them together ("this account gets this role in this namespace"). Demo: a read-only account asks "can I delete pods?" Answer: no. Least privilege, cluster edition.
+3. NetworkPolicies: who can talk to whom. By default every container can reach every other container. A policy flips the default: traffic denied unless explicitly allowed ("only frontend pods may reach the backend, only on port 80"). Demo: a pod named attacker reaches the backend freely before the policy, gets blocked after. Zero-trust networking.
+4. Kyverno: rules the cluster enforces by itself, written in plain YAML. Example: reject any pod whose image says `latest`, because `latest` is a moving target (you don't know what code you're running and can't roll back). Same "gate at creation" idea as gitleaks blocking bad commits.
+5. Kubernetes Secrets: built-in way to store passwords and pass them to apps as environment variables. Catch: only base64 encoded, which is an encoding, not encryption. Anyone who can read it can decode it. Combine with RBAC to restrict readers, never commit to Git.
+6. External Secrets Operator: the real fix. Secrets live outside the cluster (e.g. in Vault); Git contains only a reference ("fetch payments/db from Vault"). ESO syncs the real values into the cluster, apps consume them like a normal secret. Git stays clean, secrets stay in the vault.
+
+Big picture: container hardening controls what one container is; Kubernetes security controls what everything in the cluster can do and reach.

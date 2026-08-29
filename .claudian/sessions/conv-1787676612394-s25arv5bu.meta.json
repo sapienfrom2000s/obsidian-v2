@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787676612394-s25arv5bu",
+  "providerId": "opencode",
+  "title": "Draw SQS diagram with case groups",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787676612402,
+  "lastActivityAt": 1787683418012,
+  "sessionId": "ses_fc62ba2efffeZArUMekl0X35Mp",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/AWS/Messaging.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 31840,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 3
+  }
+}

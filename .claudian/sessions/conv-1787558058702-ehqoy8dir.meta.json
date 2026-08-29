@@ -1,0 +1,25 @@
+{
+  "id": "conv-1787558058702-ehqoy8dir",
+  "providerId": "opencode",
+  "title": "Fetch and annotate GitHub Gist in Python",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787558058708,
+  "lastActivityAt": 1787558289204,
+  "sessionId": "ses_fcd3c9fe8ffesix0WEP1U9VHtY",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Ops/Checklist.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 17695,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 2
+  }
+}

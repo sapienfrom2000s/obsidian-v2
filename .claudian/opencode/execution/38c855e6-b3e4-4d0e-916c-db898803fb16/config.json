@@ -1,0 +1,29 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "build": {
+      "prompt": "{file:/Users/thirtyone/Documents/Obsidian Vault/.claudian/opencode/execution/38c855e6-b3e4-4d0e-916c-db898803fb16/system.md}"
+    },
+    "claudian-yolo": {
+      "mode": "primary",
+      "permission": {
+        "plan_enter": "allow",
+        "question": "allow"
+      },
+      "prompt": "{file:/Users/thirtyone/Documents/Obsidian Vault/.claudian/opencode/execution/38c855e6-b3e4-4d0e-916c-db898803fb16/system.md}"
+    },
+    "claudian-safe": {
+      "mode": "primary",
+      "permission": {
+        "plan_enter": "allow",
+        "question": "allow",
+        "bash": "ask",
+        "edit": "ask"
+      },
+      "prompt": "{file:/Users/thirtyone/Documents/Obsidian Vault/.claudian/opencode/execution/38c855e6-b3e4-4d0e-916c-db898803fb16/system.md}"
+    },
+    "plan": {
+      "prompt": "{file:/Users/thirtyone/Documents/Obsidian Vault/.claudian/opencode/execution/38c855e6-b3e4-4d0e-916c-db898803fb16/system.md}"
+    }
+  }
+}

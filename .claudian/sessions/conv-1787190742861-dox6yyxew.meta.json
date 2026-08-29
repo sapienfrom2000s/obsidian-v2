@@ -1,0 +1,23 @@
+{
+  "id": "conv-1787190742861-dox6yyxew",
+  "providerId": "claude",
+  "title": "Format questions",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787190742866,
+  "lastActivityAt": 1787327017789,
+  "sessionId": "8c33339a-030b-47f8-b890-41ed607ed8cb",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "8c33339a-030b-47f8-b890-41ed607ed8cb"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 607,
+    "cacheReadInputTokens": 137001,
+    "contextWindow": 1000000,
+    "contextTokens": 137610,
+    "percentage": 14,
+    "contextWindowIsAuthoritative": false
+  }
+}

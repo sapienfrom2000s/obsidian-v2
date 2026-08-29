@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787686178264-xdcc0i7ls",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787686178305-wdtfa4u",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787686178260-3j83973",
+      "timestamp": 1787686178260,
+      "rawDisplayText": "Global Accelerator fixes this: you get **two static IPs that never change** (same IPs from every AWS location — that's what \"Anycast\" means: one IP announced from many places, users routed to the nearest). Traffic enters AWS at the closest edge location and rides AWS's private backbone to the best regional endpoint (ALB/NLB/EC2/EIP) — public internet skipped. If a region goes unhealthy, traffic shifts in under 30s because the entry IPs stay the same.\n\n\n\n\nalways both static ip will be at the same distance from laptop coz both are present at all edges",
+      "canonicalText": "Global Accelerator fixes this: you get **two static IPs that never change** (same IPs from every AWS location — that's what \"Anycast\" means: one IP announced from many places, users routed to the nearest). Traffic enters AWS at the closest edge location and rides AWS's private backbone to the best regional endpoint (ALB/NLB/EC2/EIP) — public internet skipped. If a region goes unhealthy, traffic shifts in under 30s because the entry IPs stay the same.\n\n\n\n\nalways both static ip will be at the same distance from laptop coz both are present at all edges",
+      "context": {
+        "currentNote": {
+          "path": "Ops/AWS/Route 53 & Global Accelerator.md"
+        },
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "Global Accelerator fixes this: you get **two static IPs that never change** (same IPs from every AWS location — that's what \"Anycast\" means: one IP announced from many places, users routed to the nearest). Traffic enters AWS at the closest edge location and rides AWS's private backbone to the best regional endpoint (ALB/NLB/EC2/EIP) — public internet skipped. If a region goes unhealthy, traffic shifts in under 30s because the entry IPs stay the same.",
+          "lineCount": 1,
+          "startLine": 77
+        }
+      },
+      "images": [],
+      "contentDigest": "5b7ff8512c051cd748ff84162dd568f547f95e8280be00c3eed4b3e2b7b02097",
+      "providerAssistantMessageId": "msg_03a666a96001EwviJGg5LovS25",
+      "providerUserMessageId": "msg_03a665218001eCcuJbSXuiNiQi"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787686235171-spsi955",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787686235165-ktet9l0",
+      "timestamp": 1787686235165,
+      "rawDisplayText": "changed thinking; yesterday it was saying something else",
+      "canonicalText": "changed thinking; yesterday it was saying something else",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "Global Accelerator fixes this: you get **two static IPs that never change** (same IPs from every AWS location — that's what \"Anycast\" means: one IP announced from many places, users routed to the nearest). Traffic enters AWS at the closest edge location and rides AWS's private backbone to the best regional endpoint (ALB/NLB/EC2/EIP) — public internet skipped. If a region goes unhealthy, traffic shifts in under 30s because the entry IPs stay the same.",
+          "lineCount": 1,
+          "startLine": 77
+        }
+      },
+      "images": [],
+      "contentDigest": "54a12a9df5c0959bd1056b2b9c1c666eb48c2190c3fd33b2585ed2469238e32a",
+      "providerAssistantMessageId": "msg_03a6773c2001SP7fhB1jQx6JYw",
+      "providerUserMessageId": "msg_03a672c46001Yame1VQwZClaHA"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787686321454-m47z81y",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787686321449-ntkekrz",
+      "timestamp": 1787686321449,
+      "rawDisplayText": "so notes need fixing right",
+      "canonicalText": "so notes need fixing right",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/AWS/Route 53 & Global Accelerator.md",
+          "mode": "selection",
+          "selectedText": "Global Accelerator fixes this: you get **two static IPs that never change** (same IPs from every AWS location — that's what \"Anycast\" means: one IP announced from many places, users routed to the nearest). Traffic enters AWS at the closest edge location and rides AWS's private backbone to the best regional endpoint (ALB/NLB/EC2/EIP) — public internet skipped. If a region goes unhealthy, traffic shifts in under 30s because the entry IPs stay the same.",
+          "lineCount": 1,
+          "startLine": 77
+        }
+      },
+      "images": [],
+      "contentDigest": "370c0a6a6ffdd68dd8b113dc13542f8c2c29cc4b9efb520c6ab715f9bf9113eb",
+      "providerAssistantMessageId": "msg_03a68e6e200157sBW7bM50GfQZ",
+      "providerUserMessageId": "msg_03a687d52001hiPNd9qFmIxemV"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "conv-1787993216143-rrp1udwru",
+  "providerId": "opencode",
+  "title": "Create AWS mindmap in Excalidraw",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787993216149,
+  "lastActivityAt": 1787994111604,
+  "sessionId": "ses_fb34ca855ffei434d32gS4TVEI",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": false
+  },
+  "currentNote": "Ops/AWS/Security & Operations.md"
+}
