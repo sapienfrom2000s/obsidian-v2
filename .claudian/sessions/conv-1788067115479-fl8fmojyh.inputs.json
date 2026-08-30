@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788067115479-fl8fmojyh",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788067115569-uy1vsur",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788067115473-x3pqmcy",
+      "timestamp": 1788067115473,
+      "rawDisplayText": "In projects, let's create a new project called Purple. I want a good architecture diagram using excalidraw.\n\nDNS is at digital ocean\nLoad Balancer is at GCP\nNow it goes to K8s cluster. Ingress controller accepts the traffic.\nReact App scaled horizontally. Rails app scaled horizontally. Same with NodeJS. Metabase is deployed which is opensource via helm. Prometheus, Loki and grafana is deployed as well. redis as caching layer is deployed as well. All of this is deployed using argocd.\n\nData layer is at Mysql which is gcp managed with a read replica.",
+      "canonicalText": "In projects, let's create a new project called Purple. I want a good architecture diagram using excalidraw.\n\nDNS is at digital ocean\nLoad Balancer is at GCP\nNow it goes to K8s cluster. Ingress controller accepts the traffic.\nReact App scaled horizontally. Rails app scaled horizontally. Same with NodeJS. Metabase is deployed which is opensource via helm. Prometheus, Loki and grafana is deployed as well. redis as caching layer is deployed as well. All of this is deployed using argocd.\n\nData layer is at Mysql which is gcp managed with a read replica.",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Kubernetes/Foundations.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "e09d420bdef0d1a94aef54c537490735e84bf34f57c0558f85e3885329c6360a",
+      "providerUserMessageId": "0cdd675d-ae52-4fac-9bfc-db6c33209beb",
+      "providerAssistantMessageId": "11140cd3-141b-45c6-9df7-b904ffeec77a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788067340876-yrq0lh0",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788067340870-d2fgw2o",
+      "timestamp": 1788067340870,
+      "rawDisplayText": "Don't see it; not rendering",
+      "canonicalText": "Don't see it; not rendering",
+      "images": [],
+      "contentDigest": "41d5fc8649fdf61c0348ae3653aba5fb907f110f65c52efeafe9cd8493e7f954",
+      "providerUserMessageId": "9dda387b-957b-4393-829a-0904b400f297"
+    }
+  ]
+}

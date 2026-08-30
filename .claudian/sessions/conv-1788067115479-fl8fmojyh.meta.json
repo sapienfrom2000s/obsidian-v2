@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788067115479-fl8fmojyh",
+  "providerId": "claude",
+  "title": "Create Purple project architecture diagram",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788067115486,
+  "lastActivityAt": 1788067481497,
+  "sessionId": "074891ab-2718-4088-844b-4aa6374907a8",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "074891ab-2718-4088-844b-4aa6374907a8"
+  },
+  "currentNote": "Ops/Kubernetes/Foundations.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 293,
+    "cacheReadInputTokens": 84819,
+    "contextWindow": 1000000,
+    "contextTokens": 85114,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}

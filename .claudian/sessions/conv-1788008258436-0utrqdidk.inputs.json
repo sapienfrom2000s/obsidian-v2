@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788008258436-0utrqdidk",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788008258465-i1c4sbb",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788008258432-zt1laop",
+      "timestamp": 1788008258432,
+      "rawDisplayText": "Need to make notes for kubernetes.  Write premise first. why do we need it, what problem it solves and what are it's limitations.",
+      "canonicalText": "Need to make notes for kubernetes.  Write premise first. why do we need it, what problem it solves and what are it's limitations.",
+      "images": [],
+      "contentDigest": "0c7eb91e9df6dc668d7ad32ea9213d1daccda02a809b5c9bfb86490f06f086c5",
+      "providerAssistantMessageId": "msg_04d99d1fe001Sk3A5WDhnQNUOw",
+      "providerUserMessageId": "msg_04d98dfbb001GsY3VjKbq2tFk3"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788008580401-9cckxrx",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788008580392-6xn3qil",
+      "timestamp": 1788008580392,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-scheduling.md\n\n\nAdd this now.  It's very complex though. Don't go for that much complexity. Add till mid-level engineer should know. No need of interview gocthas as well",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-scheduling.md\n\n\nAdd this now.  It's very complex though. Don't go for that much complexity. Add till mid-level engineer should know. No need of interview gocthas as well",
+      "images": [],
+      "contentDigest": "a8dc301e4ea919a2b85420c55a01f95fe113b04fe4ec46b9c8127b6ffb1dd45f",
+      "providerAssistantMessageId": "msg_04d9f3ce40012n72v1PiPkhrw0",
+      "providerUserMessageId": "msg_04d9dc553001xlBQ1q9GQXnXcv"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788008833443-1crx5ud",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1788008833435-5nqbnew",
+      "timestamp": 1788008833435,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-02-kubernetes-pods-and-containers.md\n\n\nDo the same with this",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-02-kubernetes-pods-and-containers.md\n\n\nDo the same with this",
+      "images": [],
+      "contentDigest": "f618ca10e1ffb6c19a671c015f206072ce7358ecac41d76ee755c388e7302f2c",
+      "providerAssistantMessageId": "msg_04da22115001IXhAa4t07gVXFC",
+      "providerUserMessageId": "msg_04da1a1c6001AYTOLyV5Ww5wma"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788008902166-w9s4s5b",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1788008902161-mscn3jf",
+      "timestamp": 1788008902161,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-02-kubernetes-cluster-components.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-02-kubernetes-cluster-components.md",
+      "images": [],
+      "contentDigest": "f0e71ba7e85fa35a18ef440498d292f62b5b37236d284cc72878958a41312549",
+      "providerAssistantMessageId": "msg_04da32e9b001h44YREKUKFk8i9",
+      "providerUserMessageId": "msg_04da2ae3a001m4DujgTlzyd23S"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788009510741-ci76gmn",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1788009510733-9iscqkw",
+      "timestamp": 1788009510733,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2025-12-27-kubernetes-objects.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2025-12-27-kubernetes-objects.md",
+      "images": [],
+      "contentDigest": "f56595247f7618f8c830946bfb5a9a9009890f6e03ac249e9e935cdb444c78f5",
+      "providerAssistantMessageId": "msg_04daca24b001J5k7dMvbk9zaC4",
+      "providerUserMessageId": "msg_04dabf77b001BhF4w2AKl0dWrp"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788009563074-m3wm9ml",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1788009563072-x84phm6",
+      "timestamp": 1788009563072,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-04-kubernetes-workload-management.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-04-kubernetes-workload-management.md",
+      "images": [],
+      "contentDigest": "ccaede6fdb4b5abd27db14ebb3c5df944834eeb59f3981f333cd00083fba5b89",
+      "providerAssistantMessageId": "msg_04dad43c7001lPmS39hCApIT1S",
+      "providerUserMessageId": "msg_04dacc3d4001tJmgb8EU7bb9LC"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788009605172-24s06v9",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1788009605171-tnhtq72",
+      "timestamp": 1788009605171,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kubernetes-services-and-networking.md\n\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kubernetes-volumes.md\n\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kustomize-and-helm.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kubernetes-services-and-networking.md\n\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kubernetes-volumes.md\n\nhttps://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kustomize-and-helm.md",
+      "images": [],
+      "contentDigest": "af2d0a02e58de1fc94d3725d392ead3820a71e64d23bc55ff952e84c08a512e2",
+      "providerUserMessageId": "msg_04dad6847001TwKO2Mo0IfdVGq",
+      "providerAssistantMessageId": "msg_04dafb4c6001zKZzerK9CIVFC1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788009764801-uox6mgu",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1788009764793-euvyvnv",
+      "timestamp": 1788009764793,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-k8s-autoscaling.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-k8s-autoscaling.md",
+      "images": [],
+      "contentDigest": "a5cd34819f3f61cbe7113c43e580797f1c96e8beb7ccba30897a7b297a94cd20",
+      "providerAssistantMessageId": "msg_04db12793001PT6JXg7VRo837f",
+      "providerUserMessageId": "msg_04dafdbbf001soeq5E8TtwvAze"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788009882573-au9mnmv",
+      "userTurnOrdinal": 9,
+      "state": "accepted",
+      "localMessageId": "msg-1788009882565-vo7zp3m",
+      "timestamp": 1788009882565,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kubernetes-volumes.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-11-kubernetes-volumes.md",
+      "images": [],
+      "contentDigest": "3e5689def1135cae12a38df9402b10d0a249ead556bf956a17a965142823694e",
+      "providerAssistantMessageId": "msg_04db1beaf001WemdnfnOoj3UGF",
+      "providerUserMessageId": "msg_04db1a3f000148bUP2yppRbh7j"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010070406-je0bxb8",
+      "userTurnOrdinal": 10,
+      "state": "accepted",
+      "localMessageId": "msg-1788010070401-vyc97q5",
+      "timestamp": 1788010070401,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-k8s-autoscaling.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-k8s-autoscaling.md",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Kubernetes/Storage.md",
+          "mode": "selection",
+          "selectedText": "(volumes in Docker)",
+          "lineCount": 1,
+          "startLine": 82
+        }
+      },
+      "images": [],
+      "contentDigest": "a5cd34819f3f61cbe7113c43e580797f1c96e8beb7ccba30897a7b297a94cd20",
+      "providerAssistantMessageId": "msg_04db49a6c001BY7vfCZ0SQAzFt",
+      "providerUserMessageId": "msg_04db481ac0012aFo3gf7v2kvH8"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010084817-qlwtkzb",
+      "userTurnOrdinal": 11,
+      "state": "accepted",
+      "localMessageId": "msg-1788010084815-j47t7ca",
+      "timestamp": 1788010084815,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-configmaps-and-secrets.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-configmaps-and-secrets.md",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Kubernetes/Storage.md",
+          "mode": "selection",
+          "selectedText": "(volumes in Docker)",
+          "lineCount": 1,
+          "startLine": 82
+        }
+      },
+      "images": [],
+      "contentDigest": "dc75319760ab21d59b77eb67ee31080450615969e7ea81e66586a34b6c79ac2e",
+      "providerAssistantMessageId": "msg_04db51c5d001cxyE2T5a1k71R7",
+      "providerUserMessageId": "msg_04db4b9e2001LJpw0blgbHtrzo"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010122248-x7suj5y",
+      "userTurnOrdinal": 12,
+      "state": "accepted",
+      "localMessageId": "msg-1788010122247-8dkizdl",
+      "timestamp": 1788010122247,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-crds.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-crds.md",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Kubernetes/Storage.md",
+          "mode": "selection",
+          "selectedText": "(volumes in Docker)",
+          "lineCount": 1,
+          "startLine": 82
+        }
+      },
+      "images": [],
+      "contentDigest": "aa1cbee5c42323c93e6d1859a925ec9ee60c006a0409d62ed23c99c2ad6cb25f",
+      "providerAssistantMessageId": "msg_04db5b0fd001EVlYOQG1EhY8vR",
+      "providerUserMessageId": "msg_04db54c1a001i0OyocwlEU3e5W"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010361277-877xwgg",
+      "userTurnOrdinal": 13,
+      "state": "accepted",
+      "localMessageId": "msg-1788010361270-hnzh7bn",
+      "timestamp": 1788010361270,
+      "rawDisplayText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-rbac-and-abac.md",
+      "canonicalText": "https://github.com/sapienfrom2000s/notes/blob/main/_posts/2026-01-14-kubernetes-rbac-and-abac.md",
+      "context": {
+        "editorSelection": {
+          "notePath": "Ops/Kubernetes/Storage.md",
+          "mode": "selection",
+          "selectedText": "(volumes in Docker)",
+          "lineCount": 1,
+          "startLine": 82
+        }
+      },
+      "images": [],
+      "contentDigest": "e5033760d663a1afaad86250a03b975cf5be2f7e80eb17ca8ce670611db09ac0",
+      "providerAssistantMessageId": "msg_04db959bf001gKrO42ACUPQZLX",
+      "providerUserMessageId": "msg_04db8f1e2001q57h1gFEO7YzW0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010459335-r8zeg2t",
+      "userTurnOrdinal": 14,
+      "state": "accepted",
+      "localMessageId": "msg-1788010459328-hafq7xn",
+      "timestamp": 1788010459328,
+      "rawDisplayText": "Nice; Now is it possible to club some of the notes in k8s?",
+      "canonicalText": "Nice; Now is it possible to club some of the notes in k8s?",
+      "images": [],
+      "contentDigest": "3e0e6f6b184d6ddfcbd21372912288c108ebf7b0690e9f57d0324a16ca9adc8f",
+      "providerAssistantMessageId": "msg_04dba8fa8001H3Dvrf8SHO2IzV",
+      "providerUserMessageId": "msg_04dba70ee0010fqiHK0IBV91CG"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010502988-m7rxn50",
+      "userTurnOrdinal": 15,
+      "state": "accepted",
+      "localMessageId": "msg-1788010502981-cf6ssxm",
+      "timestamp": 1788010502981,
+      "rawDisplayText": "yes",
+      "canonicalText": "yes",
+      "images": [],
+      "contentDigest": "02002f7ce90dff20716f6833c7694fa402e25a85c7e8ec803c457e8197761d70",
+      "providerUserMessageId": "msg_04dbb1b68001HEiEgFrTC0x0nG",
+      "providerAssistantMessageId": "msg_04dc0db82001fdzlCX8D1DX0V4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788010904113-hcp3bq2",
+      "userTurnOrdinal": 16,
+      "state": "accepted",
+      "localMessageId": "msg-1788010904105-rxdskrk",
+      "timestamp": 1788010904105,
+      "rawDisplayText": "bro you are wasting tokens",
+      "canonicalText": "bro you are wasting tokens",
+      "images": [],
+      "contentDigest": "47d07924d33ae6cbc272b43a01ed68805144706999309a12a37f29f0bd6fdf6b",
+      "providerUserMessageId": "msg_04dc13e5900135H14FFtTo6PkM",
+      "providerAssistantMessageId": "msg_04dc1bdff0015WP36dOwu8YczJ"
+    }
+  ]
+}

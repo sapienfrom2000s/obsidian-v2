@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "sonnet",
+  "model": "opencode:opencode-go/glm-5.3",
   "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -73,12 +73,12 @@
     "opencode": {
       "cliPath": "",
       "cliPathsByHost": {},
-      "enabled": false,
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {
-        "opencode-go/glm-5.3": "low"
+        "opencode-go/glm-5.3": "high"
       },
       "selectedMode": "claudian-yolo",
       "thinkingOptionsByModel": {
@@ -175,7 +175,7 @@
       "visibleModels": []
     }
   },
-  "settingsProvider": "claude",
+  "settingsProvider": "opencode",
   "lastSelectedChatModel": {
     "providerId": "claude",
     "model": "opus"
@@ -185,8 +185,8 @@
     "opencode": "opencode:opencode-go/glm-5.3"
   },
   "savedProviderEffort": {
-    "claude": "high",
-    "opencode": "low"
+    "claude": "medium",
+    "opencode": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},

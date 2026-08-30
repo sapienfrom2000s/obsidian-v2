@@ -1,0 +1,23 @@
+{
+  "id": "conv-1788011089831-5lkjr0m7j",
+  "providerId": "claude",
+  "title": "Consolidate Kubernetes notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788011089836,
+  "lastActivityAt": 1788011809340,
+  "sessionId": "fdef9be2-dfdf-49d8-abd6-a81e0c0e71c4",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "fdef9be2-dfdf-49d8-abd6-a81e0c0e71c4"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 1321,
+    "cacheReadInputTokens": 120336,
+    "contextWindow": 1000000,
+    "contextTokens": 121659,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}

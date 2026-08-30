@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788006900581-s2ptqh78s",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006900612-7gjtm7f",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788006900576-xg758qj",
+      "timestamp": 1788006900576,
+      "rawDisplayText": "Create mindmap for CI-CD",
+      "canonicalText": "Create mindmap for CI-CD",
+      "images": [],
+      "contentDigest": "8d4b6c7ba0bbeb4e2834076339cb1731ed2ad60c36a1e67271c65819713a65ef"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006905636-z2vjyge",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788006905631-bai9hmo",
+      "timestamp": 1788006905631,
+      "rawDisplayText": "using excalidraw",
+      "canonicalText": "using excalidraw",
+      "images": [],
+      "contentDigest": "198e2f2d8dad7b65da275489b4f3c7a748f02a10b25dc0302587a99fd0e27bf6",
+      "providerAssistantMessageId": "msg_04d856072001t7A4xWf8f45olg"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788007048367-0cjdtdm",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1788007048363-vleztv8",
+      "timestamp": 1788007048363,
+      "rawDisplayText": "i wanted notes of @Ops/CI-CD/CI-CD.md and @Ops/CI-CD/GitHub Actions.md to be mapped there",
+      "canonicalText": "i wanted notes of @Ops/CI-CD/CI-CD.md and @Ops/CI-CD/GitHub Actions.md to be mapped there",
+      "images": [],
+      "contentDigest": "7bdce3b76faf8f58fcaf36474eaef5ac4aa6295702692f5393f212b5f511554a",
+      "providerAssistantMessageId": "msg_04d876f91001ux20Iyzcit5Ef7"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788007137694-htei3n9",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1788007137690-5z2ou1m",
+      "timestamp": 1788007137690,
+      "rawDisplayText": "it overlapped mate",
+      "canonicalText": "it overlapped mate",
+      "images": [],
+      "contentDigest": "4eb67699302ff227f6887d56460574689d72682026b62f35f51aa23870eaa487",
+      "providerAssistantMessageId": "msg_04d888f7c001cdWkLEiITISuOk"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1788006900581-s2ptqh78s",
+  "providerId": "opencode",
+  "title": "Create CI-CD mindmap",
+  "titleGenerationStatus": "success",
+  "createdAt": 1788006900586,
+  "lastActivityAt": 1788007196340,
+  "sessionId": "ses_fb27bd897ffeobuUPReLTklXsa",
+  "selectedModel": "opencode:opencode-go/glm-5.3",
+  "providerState": {
+    "databasePath": "/Users/thirtyone/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 37989,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode-go/glm-5.3",
+    "percentage": 4
+  }
+}

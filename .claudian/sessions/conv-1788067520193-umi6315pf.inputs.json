@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788067520193-umi6315pf",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788067520217-21p3l4x",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788067520187-304fqac",
+      "timestamp": 1788067520187,
+      "rawDisplayText": "In projects, let's create a new project called Purple. I want a good architecture diagram using excalidraw.\n\nDNS is at digital ocean\nLoad Balancer is at GCP\nNow it goes to K8s cluster. Ingress controller accepts the traffic.\nReact App scaled horizontally. Rails app scaled horizontally. Same with NodeJS. Metabase is deployed which is opensource via helm. Prometheus, Loki and grafana is deployed as well. redis as caching layer is deployed as well. All of this is deployed using argocd.\n\nData layer is at Mysql which is gcp managed with a read replica.\n\nThe project is there but it's not rendering",
+      "canonicalText": "In projects, let's create a new project called Purple. I want a good architecture diagram using excalidraw.\n\nDNS is at digital ocean\nLoad Balancer is at GCP\nNow it goes to K8s cluster. Ingress controller accepts the traffic.\nReact App scaled horizontally. Rails app scaled horizontally. Same with NodeJS. Metabase is deployed which is opensource via helm. Prometheus, Loki and grafana is deployed as well. redis as caching layer is deployed as well. All of this is deployed using argocd.\n\nData layer is at Mysql which is gcp managed with a read replica.\n\nThe project is there but it's not rendering",
+      "context": {
+        "currentNote": {
+          "path": "Excalidraw/Purple Architecture.excalidraw.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "38923628f2c0d3004c0555a98ad5294daa9b288aaeea56649fc9eabcd654ed94",
+      "providerUserMessageId": "3b48c9d5-cdd9-453d-b836-61f19247c177",
+      "providerAssistantMessageId": "0d694d41-1e9f-497a-92e8-a8a5c5692ba0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788068000822-f4g98z8",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788068000819-so5us76",
+      "timestamp": 1788068000819,
+      "rawDisplayText": "Add AWS Secret Manager and S3.",
+      "canonicalText": "Add AWS Secret Manager and S3.",
+      "images": [],
+      "contentDigest": "6800945878b4d3cc6a62eb8c4d2c43543cef2381aec4faf2e9ac035ba8ccf96f",
+      "providerUserMessageId": "6908dbde-2850-4e55-b640-422004e2d92d",
+      "providerAssistantMessageId": "5d9b90f2-2f07-4d6f-958b-d5133334072a"
+    }
+  ]
+}

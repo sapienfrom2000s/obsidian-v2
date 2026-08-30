@@ -5,7 +5,7 @@
 - [x] Python(WIP)
 - [x] Bash
 - [x] Terraform
-- [ ] CI/CD
+- [x] CI/CD
 - [x] Security(K8s + devops)
 - [ ] K8s
 - [ ] AI

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788006092166-weixfpbu0",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006092244-50kt4mx",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788006092163-qidepu6",
+      "timestamp": 1788006092163,
+      "rawDisplayText": "Make notes for CI/CD in general and then in the same directory make for github actions. At the end create a mind map",
+      "canonicalText": "Make notes for CI/CD in general and then in the same directory make for github actions. At the end create a mind map",
+      "context": {
+        "currentNote": {
+          "path": "Ops/Checklist.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "395330b2116a2d64815c4a79eab3105c6cff7287d95ac670bc38a24600378eee",
+      "providerUserMessageId": "f7278906-ec15-42e8-baf6-da300a25d899",
+      "providerAssistantMessageId": "5f962e7e-f4a3-4881-8103-cd91745e4c7a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006282427-flcqiyo",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1788006282421-lqgwmz3",
+      "timestamp": 1788006282421,
+      "rawDisplayText": "no mind map created",
+      "canonicalText": "no mind map created",
+      "images": [],
+      "contentDigest": "33a65bef8b6b21b5b748a23a6199c1e0fafd1d308be15b59a7494ab0becc679b",
+      "providerUserMessageId": "b38b37b0-3bb9-443c-b387-231c0beabea0",
+      "providerAssistantMessageId": "e8586fee-9d2c-499a-b412-c1091edad1b6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006371498-3e5kxh4",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1788006371492-gcryl96",
+      "timestamp": 1788006371492,
+      "rawDisplayText": "do not use canvas; use excalidraw",
+      "canonicalText": "do not use canvas; use excalidraw",
+      "images": [],
+      "contentDigest": "779410d689f9a61009f03c3dfc99523f520acd177ebebb39d91ce73d83833afa",
+      "providerUserMessageId": "a4e594ef-1888-4b63-afbe-a75da901d512",
+      "providerAssistantMessageId": "d8b15891-e675-4101-86cd-2e19f862a526"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006482190-kokbghd",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1788006482185-il2i237",
+      "timestamp": 1788006482185,
+      "rawDisplayText": "Arrows are messed up",
+      "canonicalText": "Arrows are messed up",
+      "images": [],
+      "contentDigest": "41a9ba4bf6ca31800209fddf452e7d97563ee60666a30f9adcb58abbc48dee4d",
+      "providerUserMessageId": "ef2e56c9-a013-47c1-879b-10264ba298d0",
+      "providerAssistantMessageId": "51ce194b-c9f5-400d-8df1-a91148c23939"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006668451-08cy07n",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1788006668445-1ljzkex",
+      "timestamp": 1788006668445,
+      "rawDisplayText": "it's still there mate. also there is suffix of \"leaf\" in each of them",
+      "canonicalText": "it's still there mate. also there is suffix of \"leaf\" in each of them",
+      "images": [],
+      "contentDigest": "9d33bbb75f24d3ad304eae67765f4121c1ee554d58a2d63ec345bdecea1c4e03",
+      "providerUserMessageId": "c90b700d-2a0b-4e97-91f7-a37c84c1ae5a",
+      "providerAssistantMessageId": "bb1197e2-5e64-4517-bc58-bf5b75ab2760"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788006789962-h326vew",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1788006789960-x8pkztb",
+      "timestamp": 1788006789960,
+      "rawDisplayText": "now it's duplicated",
+      "canonicalText": "now it's duplicated",
+      "images": [],
+      "contentDigest": "2f0da97c293a4f2777f864b3ed98faaf00795e20a6fe7e16f428333edaf92a11",
+      "providerUserMessageId": "66874ace-9a64-4ad7-8051-2f1e3a323e8e",
+      "providerAssistantMessageId": "2ea60bbb-0a27-4c28-aa8c-a5d069246bbf"
+    }
+  ]
+}

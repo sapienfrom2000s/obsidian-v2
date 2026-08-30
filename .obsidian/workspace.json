@@ -4,57 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "68a0ba2099e0de29",
+        "id": "5c8c04fcb3e3f1e4",
         "type": "tabs",
         "children": [
           {
-            "id": "fe17cc39f480013f",
+            "id": "6c06e89b9c9696b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ops/Python/Cheatsheet.md",
+                "file": "Ops/Kubernetes/Foundations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cheatsheet"
+              "title": "Foundations"
             }
           },
           {
-            "id": "060b813515b0a576",
+            "id": "3e42d19f8714640d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/Purple Architecture.excalidraw.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Purple Architecture.excalidraw"
+            }
+          },
+          {
+            "id": "cfd0540c12402948",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/Purple Architecture.excalidraw.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Purple Architecture.excalidraw"
+            }
+          },
+          {
+            "id": "af9e1401d28ca907",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/AWS Mindmap.excalidraw.md"
+                "file": "Excalidraw/Purple Architecture.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "AWS Mindmap.excalidraw"
-            }
-          },
-          {
-            "id": "e1c3e70725dec694",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-08-29 16.40.34.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-29 16.40.34.excalidraw"
-            }
-          },
-          {
-            "id": "ed094379cfa199ce",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-08-29 16.51.53.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-29 16.51.53.excalidraw"
+              "title": "Purple Architecture.excalidraw"
             }
           }
         ],
@@ -92,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "namespace",
+                "query": "life",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,45 +241,47 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ed094379cfa199ce",
+  "active": "af9e1401d28ca907",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-08-29 16.51.53.excalidraw.md",
-    "Untitled.md",
-    "Excalidraw/Drawing 2026-08-29 16.40.34.excalidraw.md",
-    "Excalidraw/AWS Mindmap.excalidraw.md",
-    "Excalidraw/Linux Mindmap.excalidraw.md",
+    "Excalidraw/Purple Architecture.excalidraw.md",
+    "Ops/Projects/Purple.md",
     "Excalidraw/Docker Mindmap.excalidraw.md",
-    "Ops/Python/Cheatsheet.md",
-    "Excalidraw/AWS Three-Tier Architecture.excalidraw.md",
-    "Excalidraw/AWS Mindmaps/AWS Security & Operations.excalidraw.md",
-    "Excalidraw/AWS Mindmaps/AWS Networking & Content Delivery.excalidraw.md",
-    "Excalidraw/AWS Mindmaps/AWS Data Services.excalidraw.md",
-    "Excalidraw/AWS Mindmaps/AWS Compute & Messaging.excalidraw.md",
-    "Excalidraw/AWS Mindmaps/AWS Foundations.excalidraw.md",
-    "Excalidraw/AWS Mindmaps/AWS.excalidraw.md",
-    "Ops/Checklist.md",
-    "Excalidraw/AWS Mindmaps",
-    "Ops/AWS/Compute & Messaging.md",
+    "Excalidraw/Drawing 2026-08-30 10.52.07.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-30 10.51.45.excalidraw.md",
+    "Ops/Kubernetes/Foundations.md",
+    "Ops/Kubernetes/Index.md",
+    "Ops/AWS/Foundations.md",
     "Ops/AWS/AWS.md",
-    "Ops/AWS/Security & Operations.md",
+    "Ops/Kubernetes/Networking.md",
+    "Ops/Kubernetes/Authentication.md",
+    "Ops/Projects/Jerney - Secops.md",
+    "Ops/Kubernetes/Ingress and Gateway API.md",
+    "Ops/Kubernetes/Pods.md",
+    "Ops/Kubernetes/Ops/Kubernetes/Index.md",
+    "Ops/Kubernetes-Index.md",
+    "Ops/Kubernetes/Ops/Kubernetes",
+    "Ops/Kubernetes/Ops",
+    "Ops/Kubernetes/Autoscaling.md",
+    "Ops/Kubernetes/Storage.md",
+    "Ops/Kubernetes/RBAC.md",
+    "Ops/Kubernetes/CRDs and Operators.md",
+    "Ops/Kubernetes/ConfigMaps and Secrets.md",
+    "Ops/Kubernetes/Kustomize and Helm.md",
+    "Ops/Kubernetes/Cluster Components.md",
+    "Ops/Kubernetes/Workloads.md",
+    "Ops/Kubernetes/Objects.md",
+    "Ops/Kubernetes/Pods and Containers.md",
+    "Ops/Kubernetes",
+    "Ops/CI-CD/CI-CD Mindmap.canvas",
+    "Ops/CI-CD",
+    "Ops/Ops/CI-CD/CI-CD Mindmap.canvas",
+    "Ops/Ops/CI-CD",
+    "Ops/Ops",
+    "Excalidraw/AWS Mindmaps",
     "backup",
     "2026-08-29",
     "consolidation",
-    "Ops/AWS/Networking & Content Delivery.md",
-    "Ops/AWS/Data Services.md",
-    "Ops/AWS/Foundations.md",
-    "Ops/Projects/Jerney - Secops.md",
-    "Ops/DevSecOps/DevSecOps.md",
-    "Ops/DevSecOps/Kubernetes Security.md",
-    "Excalidraw/Jerney Pipeline.excalidraw.md",
-    "Excalidraw/Terraform Mind Map.excalidraw.md",
     "Untitled.canvas",
-    "Ops/Terraform",
-    "Ops/DevSecOps",
-    "Ops/SecOps(Draft)",
-    "Ops/Projects",
-    "Untitled",
-    "Excalidraw",
     "Images/Pasted image 20260820074419.png",
     "Untitled 1.canvas"
   ]
