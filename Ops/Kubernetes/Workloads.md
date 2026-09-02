@@ -2,54 +2,28 @@
 
 You almost never create Pods directly — they're too low-level. Workload resources manage Pods for you, each matched to the nature of the app:
 
-| Workload | Use when |
-|---|---|
-| `Deployment` | Stateless long-running services — the default choice |
-| `StatefulSet` | Stateful apps needing stable identity, storage, or ordering |
-| `DaemonSet` | Exactly one pod per node — log collectors, monitoring agents, CNI |
-| `Job` | Run a task once to completion |
-| `CronJob` | Run a task on a schedule |
-
-## ReplicaSet — the pod count enforcer
-
-Ensures N identical pods are running: crash → replacement, scale down → excess deleted. But **you never create one directly** — a Deployment creates and manages ReplicaSets for you, adding rollout, rollback, and history on top.
-
-The relationship: a Deployment owns one or more ReplicaSets. One is current (replicas > 0); ReplicaSets from previous rollouts are kept around scaled to zero — kept specifically so `rollout undo` is possible (`revisionHistoryLimit`, default 10, controls how many).
-
+| Workload      | Use when                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------- |
+| `Deployment`  | Stateless long-running services — the default choice                                        |
+| `StatefulSet` | Stateful apps needing stable identity, storage, or ordering                                 |
+| `DaemonSet`   | Exactly one pod per node — log collectors, monitoring agents, CNI. Multiple can be present. |
+| `Job`         | Run a task once to completion                                                               |
+| `CronJob`     | Run a task on a schedule                                                                    |
 ## Deployment
 
-### What triggers a rollout?
+A **Deployment** is the Kubernetes API resource you use to declare the desired state for a stateless app. Under the hood, the **Deployment Controller** watches this spec in `etcd` and drives the cluster toward that state by managing ReplicaSets to deliver rolling updates, self-healing, and scaling.
 
-Any change to `.spec.template` (the pod template) — image, env vars, pod labels. Changing `spec.replicas` only scales the existing ReplicaSet; no rollout.
-
-### Strategies and the two knobs
-
-- **RollingUpdate** (default) — old pods die as new ones become ready
-- **Recreate** — kill all, then create all. Downtime, but necessary when two versions can't coexist (e.g. conflicting DB schema migrations)
-
-RollingUpdate pace is set by two fields, respected **simultaneously**:
+### Max Surge and Max unavailable
 
 - **maxSurge** — extra pods allowed *above* the desired count during the update. More surge = faster rollout, more resources.
 - **maxUnavailable** — pods allowed to be down during the update. Lower = safer, slower.
 
-With `replicas=10, maxSurge=2, maxUnavailable=1`: availability never drops below 9. With `maxSurge=2, maxUnavailable=0`: new pods are fully created and Ready before any old pod dies — never below 10, but needs spare capacity. With `maxSurge=0, maxUnavailable=2`: no extra capacity needed, but availability dips to 8.
+## ReplicaSet — the pod count enforcer
 
-### Rollouts and rollbacks
-
-```bash
-kubectl rollout status deployment/my-app        # watch progress
-kubectl rollout history deployment/my-app       # revisions
-kubectl rollout undo deployment/my-app          # back to previous (--to-revision=2 for specific)
-kubectl rollout pause / resume deployment/my-app
-```
-
-A rollback is just scaling the old ReplicaSet up and the current one down — which is why old ReplicaSets are kept. Pause/resume gives manual canary control: while paused, both versions run and take traffic, nothing progresses until resume.
-
-If a rollout stalls (failing readiness probes, Pending pods, image pull failures), it doesn't auto-rollback — after `progressDeadlineSeconds` (default 600s) the Deployment is marked stalled and undo is on you.
-
+A **ReplicaSet** sits between a Deployment and a Pod in the abstraction hierarchy. While a Deployment handles the high-level orchestration of _how_ applications roll out or update, the **ReplicaSet Controller** handles the low-level execution of keeping the actual count of identical Pods stable.
 ## StatefulSet
 
-For apps needing **stable, persistent identity**: databases, message queues, distributed systems.
+Unlike a Deployment, which relies on a ReplicaSet to manage identical pods in parallel, a **StatefulSet** interacts with the control plane to manage Pods **directly**. The **StatefulSet Controller** enforces a strict sequential ordering during creation and deletion, and uses a _VolumeClaimTemplate_ to automatically provision and bind a specific PersistentVolumeClaim (PVC) to each individual Pod ordinal.
 
 | | Deployment | StatefulSet |
 |---|---|---|
@@ -70,34 +44,15 @@ Don't use StatefulSets everywhere — slower rollouts, strict ordering, more ope
 
 ## DaemonSet
 
-Exactly one pod per node (or a labelled subset). New node joins → pod appears on it; node leaves → pod is garbage collected. Use cases: log shippers, node exporters, CNI plugins, security agents.
+Unlike a Deployment, where you request a specific _replica count_ (e.g., 3 pods) and the scheduler places them anywhere, a **DaemonSet** ignores total count and binds pod topology directly to **node membership**. The **DaemonSet Controller** watches the node pool and automatically appends node affinity and tolerations to place exactly one instance on every matching node, including control plane nodes if tolerations permit.
 
-Note the connection to [[Ops/Kubernetes/Pods]]: control-plane nodes carry a `NoSchedule` taint, so infrastructure DaemonSets add a toleration for `node-role.kubernetes.io/control-plane` to also run there. `nodeSelector`/affinity restricts to a subset (e.g. GPU nodes only).
+One daemonset exactly spawns 1 pod.
 
 ## Job and CronJob
 
-**Job** — run pods to *successful completion*, no restarts:
+A **Job** runs one or more Pods to complete a specific task and then stops. The **Job Controller** tracks when the task is done, can run multiple Pods in sequence or at the same time, and automatically retries any Pods that fail.
 
-```yaml
-spec:
-  completions: 5        # successes needed
-  parallelism: 2        # running simultaneously
-  backoffLimit: 4       # retries before Failed
-  activeDeadlineSeconds: 300   # hard kill regardless of state
-```
+A **CronJob** runs a **Job** on a set schedule. The **CronJob Controller** checks the timer (like _"every night at midnight"_), starts a new Job when the time comes, and ensures old runs don't overlap with new ones.
 
-`completions=5, parallelism=2` = run 2 at a time until 5 total successes. `backoffLimit` retries with exponential backoff; `activeDeadlineSeconds` overrides everything — a job stuck past its deadline is killed even mid-retry. The pod's `restartPolicy` must be `OnFailure` or `Never`, never `Always`.
 
-**CronJob** — creates Jobs on a cron schedule (`"0 2 * * *"` = daily 2am; `timeZone` supported since 1.27). The field that matters most is **concurrencyPolicy**:
 
-- `Allow` (default) — fire regardless; long-running jobs pile up
-- `Forbid` — skip if the previous is still running (the safe default for backups)
-- `Replace` — kill the running job, start fresh
-
-`startingDeadlineSeconds` handles missed schedules (controller down, cluster unavailable): within the deadline, the job starts late; outside it, the run is skipped. Set it generously unless you have a reason not to.
-
-## Big picture
-
-Deployment → ReplicaSet → Pods is the ownership chain in action (see [[Ops/Kubernetes/Foundations]]); every other workload is a variation on "what does 'done' or 'stable' mean for this app" — long-running and stateless (Deployment), stable identity (StatefulSet), one-per-node (DaemonSet), runs-to-completion (Job/CronJob).
-
-Related: [[Ops/Kubernetes/Foundations]] · [[Ops/Kubernetes/Pods]]

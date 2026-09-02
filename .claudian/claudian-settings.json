@@ -3,7 +3,7 @@
   "permissionMode": "yolo",
   "model": "opencode:opencode-go/glm-5.3",
   "thinkingBudget": "high",
-  "effortLevel": "high",
+  "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -25,7 +25,7 @@
   "locale": "en",
   "providerConfigs": {
     "claude": {
-      "enabled": true,
+      "enabled": false,
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -78,7 +78,7 @@
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {
-        "opencode-go/glm-5.3": "high"
+        "opencode-go/glm-5.3": "low"
       },
       "selectedMode": "claudian-yolo",
       "thinkingOptionsByModel": {
@@ -177,21 +177,21 @@
   },
   "settingsProvider": "opencode",
   "lastSelectedChatModel": {
-    "providerId": "claude",
-    "model": "opus"
+    "providerId": "opencode",
+    "model": "opencode:opencode-go/glm-5.3"
   },
   "savedProviderModel": {
-    "claude": "sonnet",
+    "claude": "opus",
     "opencode": "opencode:opencode-go/glm-5.3"
   },
   "savedProviderEffort": {
     "claude": "medium",
-    "opencode": "high"
+    "opencode": "low"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "yolo",
+    "claude": "normal",
     "opencode": "yolo"
   },
   "pendingProviderSessionInvalidations": {},

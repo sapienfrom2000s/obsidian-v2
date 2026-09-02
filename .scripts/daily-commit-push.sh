@@ -4,6 +4,8 @@ set -euo pipefail
 REPO_DIR="/Users/thirtyone/Documents/Obsidian Vault"
 SSH_KEY="$HOME/.ssh/id_ed25519_personal"
 
+echo "=== run $(date '+%Y-%m-%d %H:%M:%S %Z') ==="
+
 cd "$REPO_DIR"
 
 if [ -n "$(git status --porcelain)" ]; then

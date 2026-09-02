@@ -1,7 +1,3 @@
-# Kubernetes — Ingress and Gateway API
-
-*Deep dive on the L7 entry-point section of [[Ops/Kubernetes/Networking]].*
-
 ## Two separate jobs, one inbound request
 
 Every request from outside the cluster clears two gates, and it's easy to conflate them:

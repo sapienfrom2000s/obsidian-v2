@@ -31,7 +31,7 @@ Each type exists because the previous had a gap:
 
 - **ClusterIP** (default) — virtual IP, internal only. For anything that shouldn't be exposed: internal APIs, DBs, caches. *Gap: no external access.*
 - **NodePort** — opens a port (30000–32767) on **every node**; `<node-ip>:<node-port>` reaches the service. *Gap: raw node IPs, no failover — you'd need your own LB in front.*
-- **LoadBalancer** — provisions a cloud LB (ALB/NLB/...) pointing at the nodes. Stable external IP. *Gap: one cloud LB per service gets expensive, and it's L4 — can't route on HTTP host/path.* (On bare metal there's no cloud provider to hand out that IP at all — **MetalLB** fills that specific gap; see [[Ops/Kubernetes/Ingress and Gateway API]].)
+- **LoadBalancer** — provisions a cloud LB (ALB/NLB/...) pointing at the nodes. Stable external IP. *Gap: one cloud LB per service gets expensive, and it's L4 — can't route on HTTP host/path.* (On bare metal there's no cloud provider to hand out that IP at all — **MetalLB** fills that specific gap;)
 
 ## Ingress — one entry point, many services
 
@@ -39,13 +39,13 @@ One load balancer for the whole cluster, routing to many services on **HTTP host
 
 Key mechanic: an **Ingress object is just routing rules — it does nothing alone**. An **Ingress Controller** (NGINX, Traefik, AWS ALB Controller) runs as a pod, watches Ingress objects, and implements them. The controller itself is exposed via one LoadBalancer Service.
 
-Ingress's design flaws at scale: operators and developers share one object, advanced features (timeouts, retries) live in controller-specific annotations, and it's HTTP/HTTPS only. The official successor is **Gateway API** — separate `Gateway` (operator-owned: ports, TLS) and `HTTPRoute`/`TCPRoute` (developer-owned: routing rules) objects, with TCP/UDP support and no annotation lock-in. Full breakdown, plus how the entry-point problem (NodePort/hostPort/MetalLB) is a separate concern from this routing layer: [[Ops/Kubernetes/Ingress and Gateway API]].
+Ingress's design flaws at scale: operators and developers share one object, advanced features (timeouts, retries) live in controller-specific annotations, and it's HTTP/HTTPS only. The official successor is **Gateway API** — separate `Gateway` (operator-owned: ports, TLS) and `HTTPRoute`/`TCPRoute` (developer-owned: routing rules) objects, with TCP/UDP support and no annotation lock-in. Full breakdown, plus how the entry-point problem (NodePort/hostPort/MetalLB) is a separate concern from this routing layer.
 
 ## NetworkPolicies
 
-By default **every pod can reach every pod**. NetworkPolicies are pod-level firewall rules — enforced by the **CNI plugin, not kube-proxy** (Flannel doesn't support them; Calico and Cilium do — your [[Ops/DevSecOps/Kubernetes Security]] note covers the practical side).
+By default **every pod can reach every pod**. NetworkPolicies are pod-level firewall rules - enforced by the **CNI plugin, not kube-proxy** (Flannel doesn't support them; Calico and Cilium do - your [[Ops/DevSecOps/Kubernetes Security]] note covers the practical side).
 
-Worth remembering: policies are **additive** (ORed, no deny rules — you deny by not allowing), and an empty `podSelector` with no rules is a default-deny for the namespace.
+Worth remembering: policies are **additive** (ORed, no deny rules - you deny by not allowing), and an empty `podSelector` with no rules is a default-deny for the namespace.
 
 ## Big picture
 
@@ -59,5 +59,3 @@ Worth remembering: policies are **additive** (ORed, no deny rules — you deny b
 | Ingress / Gateway API | L7, one entry point for many services |
 
 Same thread as the rest of Kubernetes: each abstraction exists because the previous one had a gap.
-
-Related: [[Ops/Kubernetes/Foundations]] · [[Ops/Kubernetes/Workloads]] · [[Ops/Kubernetes/Ingress and Gateway API]]

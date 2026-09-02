@@ -4,65 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "5c8c04fcb3e3f1e4",
+        "id": "c569348d5a9fc6b9",
         "type": "tabs",
         "children": [
           {
-            "id": "6c06e89b9c9696b1",
+            "id": "da8accd1fc3e140f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ops/Kubernetes/Foundations.md",
+                "file": "Ops/Kubernetes/Autoscaling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Foundations"
+              "title": "Autoscaling"
             }
           },
           {
-            "id": "3e42d19f8714640d",
+            "id": "5da7a687adb14ffd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/Purple Architecture.excalidraw.md",
+                "file": "Ops/Kubernetes/ConfigMaps and Secrets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Purple Architecture.excalidraw"
-            }
-          },
-          {
-            "id": "cfd0540c12402948",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excalidraw/Purple Architecture.excalidraw.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Purple Architecture.excalidraw"
-            }
-          },
-          {
-            "id": "af9e1401d28ca907",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Purple Architecture.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Purple Architecture.excalidraw"
+              "title": "ConfigMaps and Secrets"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.171875
+    "width": 255.171875,
+    "collapsed": true
   },
   "right": {
     "id": "ea0d5cbc72109ee2",
@@ -241,34 +215,34 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "af9e1401d28ca907",
+  "active": "da8accd1fc3e140f",
   "lastOpenFiles": [
+    "Ops/Kubernetes/ConfigMaps and Secrets.md",
+    "Ops/Kubernetes/Index.md",
+    "Ops/Kubernetes/Autoscaling.md",
+    "Ops/Kubernetes/Workloads.md",
+    "Ops/Kubernetes/Pods.md",
+    "Ops/Kubernetes/Foundations.md",
+    "Ops/Kubernetes/Authentication.md",
+    "Ops/Kubernetes/Storage.md",
+    "Ops/Kubernetes/Ingress and Gateway API.md",
+    "Ops/Kubernetes/Networking.md",
     "Excalidraw/Purple Architecture.excalidraw.md",
     "Ops/Projects/Purple.md",
     "Excalidraw/Docker Mindmap.excalidraw.md",
     "Excalidraw/Drawing 2026-08-30 10.52.07.excalidraw.md",
     "Excalidraw/Drawing 2026-08-30 10.51.45.excalidraw.md",
-    "Ops/Kubernetes/Foundations.md",
-    "Ops/Kubernetes/Index.md",
     "Ops/AWS/Foundations.md",
     "Ops/AWS/AWS.md",
-    "Ops/Kubernetes/Networking.md",
-    "Ops/Kubernetes/Authentication.md",
     "Ops/Projects/Jerney - Secops.md",
-    "Ops/Kubernetes/Ingress and Gateway API.md",
-    "Ops/Kubernetes/Pods.md",
     "Ops/Kubernetes/Ops/Kubernetes/Index.md",
     "Ops/Kubernetes-Index.md",
     "Ops/Kubernetes/Ops/Kubernetes",
     "Ops/Kubernetes/Ops",
-    "Ops/Kubernetes/Autoscaling.md",
-    "Ops/Kubernetes/Storage.md",
     "Ops/Kubernetes/RBAC.md",
     "Ops/Kubernetes/CRDs and Operators.md",
-    "Ops/Kubernetes/ConfigMaps and Secrets.md",
     "Ops/Kubernetes/Kustomize and Helm.md",
     "Ops/Kubernetes/Cluster Components.md",
-    "Ops/Kubernetes/Workloads.md",
     "Ops/Kubernetes/Objects.md",
     "Ops/Kubernetes/Pods and Containers.md",
     "Ops/Kubernetes",
