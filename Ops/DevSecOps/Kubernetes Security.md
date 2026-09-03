@@ -1,5 +1,3 @@
-
-
 Kubernetes runs your containers on a cluster of machines: you say "run 3 copies of my app", it keeps them alive and spreads them out. Many teams share one cluster, which creates the security questions below.
 
 1. Namespaces: labeled sections of the cluster, one per team or project (payments, search). Other controls attach per namespace, so security starts here. By itself a namespace isolates nothing: everything can still reach everything. Foundation, not lock.
