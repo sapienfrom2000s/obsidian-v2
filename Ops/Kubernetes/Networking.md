@@ -14,7 +14,7 @@ When a pod is created, the CNI plugin creates the veth pair, assigns an IP from 
 
 Pods are ephemeral — every replacement gets a new IP. Anything referencing pod IPs directly breaks constantly.
 
-A **Service** provides a stable virtual IP (**ClusterIP**) plus a DNS name (`my-svc.default.svc.cluster.local`) resolved by **CoreDNS**. Callers only ever talk to the Service; Kubernetes routes to a healthy backing pod.
+A **Service** provides a stable virtual IP (**ClusterIP**) plus a DNS name (`my-svc.default.svc.cluster.local`) resolved by **CoreDNS**(hosted in `kube-dns`). Callers only ever talk to the Service; Kubernetes routes to a healthy backing pod.
 
 ### How it actually works — kube-proxy and DNAT
 
