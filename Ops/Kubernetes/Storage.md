@@ -75,8 +75,3 @@ RWO means one node mounts at a time. When that node dies, Kubernetes reschedules
 
 Not a bug — a split-brain guard (two nodes writing one disk). RWX volumes (NFS, EFS) avoid it at the cost of performance and consistency tradeoffs.
 
-## Big picture
-
-Supply (PV) and demand (PVC) separated so developers don't touch infrastructure; StorageClass automates the supply; CSI keeps the drivers out of core; StatefulSets glue it to workloads. Debugging order for stuck pods: PVC `Pending`? → check accessModes/capacity/storageClass. `ContainerCreating`? → RWO detach delay or unbound volume.
-
-Related: [[Ops/Kubernetes/Workloads]] · [[Ops/Kubernetes/Foundations]] · [[Ops/Docker/Basics]] (volumes in Docker)

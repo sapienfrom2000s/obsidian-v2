@@ -1,29 +1,23 @@
 # Kubernetes — RBAC
 
-Every action — create a pod, read a Secret, scale a Deployment — is an API request to the API server. Authorization answers one question: *is this authenticated identity allowed to do this action on this resource?* (Two separate steps: authentication = who you are, authorization = what you may do; RBAC is evaluated only after auth succeeds — see [[Ops/Kubernetes/Authentication]] for how identity gets proven in the first place, via mTLS for nodes and tokens for pods.)
+## Short Overview
 
-## Why RBAC won (and ABAC didn't)
+RBAC (Role-Based Access Control) decides **who can do what** in a cluster. Every action in Kubernetes (creating a pod, reading a Secret, deleting a deployment) is an API request — RBAC is the gatekeeper that says "allowed" or "denied" for each one.
 
-Kubernetes' older authorization mode, **ABAC**, defined rules in a static JSON policy file on the API server node. Every change required an API server restart; there was no API for managing policies (no kubectl, no GitOps); auditing meant reading scattered JSON on disk. Dead legacy.
+## Why is it needed
 
-**RBAC** makes permissions Kubernetes API objects themselves — `kubectl apply`-able, versionable in Git, live-updating, auditable. Same "everything is an object" move as the rest of the system.
+- Without it, anyone with cluster access could do anything — delete production, read secrets, take over nodes.
+- It enforces **least privilege**: people and apps only get the permissions they actually need.
+- It replaced the old ABAC method (a static JSON file on the server). RBAC permissions are normal Kubernetes objects — you can manage them with `kubectl`, store them in Git, and change them without restarting the API server.
 
-## Subjects — who gets permissions
+## Users and Groups
 
-- **Users** — humans. Kubernetes has *no user object*: identities come from outside (client certificates, OIDC tokens from Okta/Google). You can't `kubectl get users`; the username is just a string extracted by the auth layer.
-- **Groups** — also external, membership comes from the cert/token. Useful for granting a whole team at once.
-- **ServiceAccounts** — the Kubernetes-native identity for **processes in pods**, not humans. Actual objects you create and manage. When your app pod calls the API, it authenticates as its ServiceAccount. Every namespace gets a `default` one, and every pod that doesn't specify one gets it. (See [[Ops/Kubernetes/Authentication]] for how the token behind that identity actually gets minted and mounted.)
+- **Users** are humans. Kubernetes has no "user" object — the name comes from outside (a certificate or login token). You can't `kubectl get users`.
+- **Groups** are also external (from the certificate/token) and let you grant a whole team at once — e.g. "dev-team" gets read access.
 
-## The four objects
+## Role
 
-Permissions are built from three ingredients: **apiGroups** (`""` = core: pods/services/secrets; `apps` = deployments; `batch` = jobs; `networking.k8s.io` = ingresses), **resources**, and **verbs** (`get/list/watch` = read, `create/update/patch/delete` = write).
-
-| Object | Scope |
-|---|---|
-| **Role** | permissions within one namespace |
-| **RoleBinding** | attaches a Role to subjects in that namespace |
-| **ClusterRole** | cluster-scoped permissions — for non-namespaced resources (nodes, PVs) or reusable permission sets |
-| **ClusterRoleBinding** | grants a ClusterRole across the whole cluster |
+A **Role** is a list of permissions **inside one namespace**. It says what actions (verbs) can be done on which resources.
 
 ```yaml
 kind: Role
@@ -34,7 +28,15 @@ rules:
 - apiGroups: [""]
   resources: ["pods"]
   verbs: ["get", "list", "watch"]
----
+```
+
+This Role allows *reading* pods — only in the `dev` namespace.
+
+## RoleBinding
+
+A **RoleBinding** connects a Role to a person, group, or ServiceAccount — within that same namespace. It's the glue: Role = *what* is allowed, Binding = *who* gets it.
+
+```yaml
 kind: RoleBinding
 metadata:
   name: pod-reader-binding
@@ -47,26 +49,33 @@ roleRef:
   name: pod-reader
 ```
 
-**The combination people skip**: a **ClusterRole bound by a RoleBinding** applies only within that RoleBinding's namespace. That's the reuse pattern — define "can read pods and logs" once at cluster level, bind it per namespace, never granting cluster-wide access. (The fourth combo, Role + ClusterRoleBinding, is invalid — ClusterRoleBindings can only reference ClusterRoles.)
+Now alice can read pods in `dev`.
 
-## Rules of the game
+## ClusterRole
 
-- **RBAC is additive — there is no deny rule.** Multiple bindings OR together; access is denied only by the absence of an allow. You can't say "everything except X" — you enumerate allows. (Same shape as NetworkPolicies.)
-- **Subresources need explicit rules**: permission on `pods` does *not* cover `pods/log`, `pods/exec`, `pods/portforward`. Granting `pods` and then wondering why CI can't stream logs is a classic.
-- **`system:masters` bypasses RBAC entirely** — the bootstrap admin certificate's group. Treat it like a root key.
-- **The default ServiceAccount isn't harmless**: no permissions, but every pod still gets its token mounted at a well-known path. An compromised app hands that token to an attacker. Set `automountServiceAccountToken: false` on pods that don't need API access.
+Same idea as a Role, but **cluster-wide**. Used for:
 
-## Debugging permissions
+- Resources that aren't in any namespace (nodes, persistent volumes)
+- Reusable permission sets you can bind in many namespaces
 
-```bash
-kubectl auth can-i list pods -n dev --as alice
-kubectl auth can-i --list -n monitoring --as system:serviceaccount:monitoring:prometheus
-```
+## ClusterRoleBinding
 
-`kubectl auth can-i` is the fastest answer to any "can they do X?" question — including "can I?" when your own command fails with a forbidden.
+Grants a ClusterRole across the **entire cluster** — the subject gets those permissions everywhere. Powerful; use sparingly.
 
-## Big picture
+> Handy trick: a ClusterRole bound with a normal **RoleBinding** applies only in that one namespace — a great way to reuse one permission set per namespace without giving cluster-wide access.
 
-Role (what) + Subject (who) + Binding (glue), namespaced or cluster-scoped, additive-only. This is the mechanism behind the one-liner in [[Ops/DevSecOps/Kubernetes Security]] — least privilege, cluster edition — and the reason RBAC shows up in every one of those controls (Kyverno, ESO, Operators all run as ServiceAccounts with scoped Roles).
+## ServiceAccounts
 
-Related: [[Ops/Kubernetes/Foundations]] · [[Ops/Kubernetes/Authentication]] · [[Ops/DevSecOps/Kubernetes Security]]
+- ServiceAccounts are identities for **apps/pods**, not humans.
+- Every namespace gets a `default` ServiceAccount, and every pod uses it unless told otherwise.
+- When your app talks to the Kubernetes API, it's acting as its ServiceAccount.
+- Tip: pods that don't need API access should set `automountServiceAccountToken: false` — the default token is a freebie for attackers if the app is compromised.
+
+## Summary
+
+- RBAC = who (User / Group / ServiceAccount) + what (Role / ClusterRole) + glue (Binding).
+- Role + RoleBinding → namespaced. ClusterRole + ClusterRoleBinding → cluster-wide. ClusterRole + RoleBinding → reusable, namespaced.
+- Permissions are **additive only** — there is no "deny" rule; you only list allows.
+- Subresources like `pods/log` need their own explicit rules.
+- Check anything fast with `kubectl auth can-i <verb> <resource> -n <ns> --as <user>`.
+

@@ -25,6 +25,21 @@ The ClusterIP is **virtual**: no interface on any node holds it, nothing listens
 
 How does kube-proxy know which pod IPs to use? **Endpoint Slices** — objects tracking the IPs and ports of pods matching a Service's selector. Pod dies or fails readiness → removed from the slice → kube-proxy updates the rules → traffic stops. (The older single `Endpoints` object rewrote entirely on any change at scale; slices shard ~100 pods each so one pod restart only touches one slice.)
 
+## CNI — who actually gives pods their network
+
+Every pod needs the same three things when it starts: a network cable, an IP address, and a route to the rest of the cluster. Someone has to do that work — Kubernetes itself doesn't. **CNI** ("Container Network Interface") is the agreed recipe for that job, and the tool that follows it is called a **CNI plugin**.
+
+Think of it like electrical standards: any plug that matches the standard fits any socket. Kubernetes says "when I start a pod, I'll hand you this info" and the plugin does the wiring. That's why you can swap plugins — Flannel, Calico, Cilium — without changing anything else in the cluster.
+
+- **The flow**: a pod gets scheduled → kubelet runs the plugin before starting the container → the plugin does the three things above (cable = the veth pair from earlier, IP, route) → only then does the container start, already connected.
+- **The plugins differ mainly in how pods on different nodes reach each other:**
+    - **Flannel** — the simple one. Wraps each packet inside another packet and mails it across (like putting a letter in an envelope). Easy, works everywhere, but can't enforce NetworkPolicies.
+    - **Calico** — makes every node act like a router and teaches them each other's addresses, so packets travel directly (no envelope). Fast, and supports NetworkPolicies.
+    - **Cilium** — the newest approach: instead of piling up rules in the kernel the old way, it loads small custom programs into the kernel itself. Fastest and most flexible — it can even take over kube-proxy's job.
+- Whichever you pick, the promise is the same: **every pod can reach every other pod by IP, from any node, with no address translation in between.**
+
+Rule of thumb: need NetworkPolicies or speed → Calico/Cilium; just need it to work → Flannel.
+
 ## Service types — a progression
 
 Each type exists because the previous had a gap:
@@ -46,16 +61,3 @@ Ingress's design flaws at scale: operators and developers share one object, adva
 By default **every pod can reach every pod**. NetworkPolicies are pod-level firewall rules - enforced by the **CNI plugin, not kube-proxy** (Flannel doesn't support them; Calico and Cilium do - your [[Ops/DevSecOps/Kubernetes Security]] note covers the practical side).
 
 Worth remembering: policies are **additive** (ORed, no deny rules - you deny by not allowing), and an empty `podSelector` with no rules is a default-deny for the namespace.
-
-## Big picture
-
-| Layer | Job |
-|---|---|
-| CNI + veth + bridge | give every pod a routable IP |
-| CoreDNS | service names → ClusterIPs |
-| kube-proxy + iptables DNAT | ClusterIP traffic → backing pods |
-| Endpoint Slices | track which pods are behind a service |
-| ClusterIP → NodePort → LoadBalancer | progressively wider exposure |
-| Ingress / Gateway API | L7, one entry point for many services |
-
-Same thread as the rest of Kubernetes: each abstraction exists because the previous one had a gap.
