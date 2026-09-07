@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ops/Kubernetes/Authentication.md",
+                "file": "Ideas/Projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Authentication"
+              "title": "Projects"
             }
           },
           {
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.171875,
-    "collapsed": true
+    "width": 255.171875
   },
   "right": {
     "id": "ea0d5cbc72109ee2",
@@ -218,6 +217,9 @@
   },
   "active": "da8accd1fc3e140f",
   "lastOpenFiles": [
+    "Ops/Kubernetes/Authentication.md",
+    "Ideas/Projects.md",
+    "Ideas",
     "Ops/Kubernetes/RBAC.md",
     "Ops/Kubernetes/Index.md",
     "Ops/Kubernetes/Storage.md",
@@ -228,7 +230,6 @@
     "Ops/Kubernetes/Workloads.md",
     "Ops/Kubernetes/Pods.md",
     "Ops/Kubernetes/Foundations.md",
-    "Ops/Kubernetes/Authentication.md",
     "Ops/Kubernetes/Ingress and Gateway API.md",
     "Excalidraw/Purple Architecture.excalidraw.md",
     "Ops/Projects/Purple.md",
@@ -245,7 +246,6 @@
     "Ops/Kubernetes/CRDs and Operators.md",
     "Ops/Kubernetes/Kustomize and Helm.md",
     "Ops/Kubernetes/Cluster Components.md",
-    "Ops/Kubernetes/Objects.md",
     "Ops/Kubernetes",
     "Ops/CI-CD/CI-CD Mindmap.canvas",
     "Ops/CI-CD",
@@ -255,7 +255,6 @@
     "Excalidraw/AWS Mindmaps",
     "backup",
     "2026-08-29",
-    "consolidation",
     "Untitled.canvas",
     "Images/Pasted image 20260820074419.png",
     "Untitled 1.canvas"
